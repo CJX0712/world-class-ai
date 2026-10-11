@@ -3,7 +3,7 @@
     "project": "world-class-ai",
     "title": "世界顶级 AI 系统 · 第十层 1024 微指令",
     "author": "晨星",
-    "build_time": "2026-10-11T20:18:42Z",
+    "build_time": "2026-10-11T21:20:57Z",
     "total": 1024,
     "modules": [
       {
@@ -2873,8 +2873,8 @@
       "description": "随机梯度下降（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0146",
@@ -2892,8 +2892,8 @@
       "description": "随机梯度下降（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0147",
@@ -2911,8 +2911,8 @@
       "description": "随机梯度下降（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0148",
@@ -2930,8 +2930,8 @@
       "description": "随机梯度下降（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0149",
@@ -2949,8 +2949,8 @@
       "description": "随机梯度下降（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0150",
@@ -2968,8 +2968,8 @@
       "description": "随机梯度下降（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0151",
@@ -2987,8 +2987,8 @@
       "description": "随机梯度下降（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0152",
@@ -3006,8 +3006,8 @@
       "description": "随机梯度下降（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0153",
@@ -3025,8 +3025,8 @@
       "description": "动量法（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0154",
@@ -3044,8 +3044,8 @@
       "description": "动量法（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0155",
@@ -3063,8 +3063,8 @@
       "description": "动量法（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0156",
@@ -3082,8 +3082,8 @@
       "description": "动量法（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0157",
@@ -3101,8 +3101,8 @@
       "description": "动量法（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0158",
@@ -3120,8 +3120,8 @@
       "description": "动量法（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0159",
@@ -3139,8 +3139,8 @@
       "description": "动量法（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0160",
@@ -3158,8 +3158,8 @@
       "description": "动量法（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0161",
@@ -3177,8 +3177,8 @@
       "description": "Nesterov 加速梯度（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0162",
@@ -3196,8 +3196,8 @@
       "description": "Nesterov 加速梯度（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0163",
@@ -3215,8 +3215,8 @@
       "description": "Nesterov 加速梯度（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0164",
@@ -3234,8 +3234,8 @@
       "description": "Nesterov 加速梯度（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0165",
@@ -3253,8 +3253,8 @@
       "description": "Nesterov 加速梯度（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0166",
@@ -3272,8 +3272,8 @@
       "description": "Nesterov 加速梯度（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0167",
@@ -3291,8 +3291,8 @@
       "description": "Nesterov 加速梯度（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0168",
@@ -3310,8 +3310,8 @@
       "description": "Nesterov 加速梯度（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0169",
@@ -3329,8 +3329,8 @@
       "description": "Adam 自适应矩估计（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0170",
@@ -3348,8 +3348,8 @@
       "description": "Adam 自适应矩估计（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0171",
@@ -3367,8 +3367,8 @@
       "description": "Adam 自适应矩估计（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0172",
@@ -3386,8 +3386,8 @@
       "description": "Adam 自适应矩估计（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0173",
@@ -3405,8 +3405,8 @@
       "description": "Adam 自适应矩估计（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0174",
@@ -3424,8 +3424,8 @@
       "description": "Adam 自适应矩估计（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0175",
@@ -3443,8 +3443,8 @@
       "description": "Adam 自适应矩估计（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0176",
@@ -3462,8 +3462,8 @@
       "description": "Adam 自适应矩估计（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0177",
@@ -3481,8 +3481,8 @@
       "description": "AdamW 解耦权重衰减（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0178",
@@ -3500,8 +3500,8 @@
       "description": "AdamW 解耦权重衰减（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0179",
@@ -3519,8 +3519,8 @@
       "description": "AdamW 解耦权重衰减（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0180",
@@ -3538,8 +3538,8 @@
       "description": "AdamW 解耦权重衰减（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0181",
@@ -3557,8 +3557,8 @@
       "description": "AdamW 解耦权重衰减（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0182",
@@ -3576,8 +3576,8 @@
       "description": "AdamW 解耦权重衰减（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0183",
@@ -3595,8 +3595,8 @@
       "description": "AdamW 解耦权重衰减（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0184",
@@ -3614,8 +3614,8 @@
       "description": "AdamW 解耦权重衰减（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0185",
@@ -3633,8 +3633,8 @@
       "description": "RMSProp（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0186",
@@ -3652,8 +3652,8 @@
       "description": "RMSProp（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0187",
@@ -3671,8 +3671,8 @@
       "description": "RMSProp（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0188",
@@ -3690,8 +3690,8 @@
       "description": "RMSProp（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0189",
@@ -3709,8 +3709,8 @@
       "description": "RMSProp（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0190",
@@ -3728,8 +3728,8 @@
       "description": "RMSProp（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0191",
@@ -3747,8 +3747,8 @@
       "description": "RMSProp（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0192",
@@ -3766,8 +3766,8 @@
       "description": "RMSProp（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0193",
@@ -3785,8 +3785,8 @@
       "description": "LARS 分层自适应速率（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0194",
@@ -3804,8 +3804,8 @@
       "description": "LARS 分层自适应速率（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0195",
@@ -3823,8 +3823,8 @@
       "description": "LARS 分层自适应速率（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0196",
@@ -3842,8 +3842,8 @@
       "description": "LARS 分层自适应速率（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0197",
@@ -3861,8 +3861,8 @@
       "description": "LARS 分层自适应速率（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0198",
@@ -3880,8 +3880,8 @@
       "description": "LARS 分层自适应速率（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0199",
@@ -3899,8 +3899,8 @@
       "description": "LARS 分层自适应速率（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0200",
@@ -3918,8 +3918,8 @@
       "description": "LARS 分层自适应速率（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0201",
@@ -3937,8 +3937,8 @@
       "description": "Lion 符号动量（Google）（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0202",
@@ -3956,8 +3956,8 @@
       "description": "Lion 符号动量（Google）（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0203",
@@ -3975,8 +3975,8 @@
       "description": "Lion 符号动量（Google）（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0204",
@@ -3994,8 +3994,8 @@
       "description": "Lion 符号动量（Google）（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0205",
@@ -4013,8 +4013,8 @@
       "description": "Lion 符号动量（Google）（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0206",
@@ -4032,8 +4032,8 @@
       "description": "Lion 符号动量（Google）（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0207",
@@ -4051,8 +4051,8 @@
       "description": "Lion 符号动量（Google）（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0208",
@@ -4070,8 +4070,8 @@
       "description": "Lion 符号动量（Google）（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0209",
@@ -4089,8 +4089,8 @@
       "description": "AdaFactor 低秩自适应（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0210",
@@ -4108,8 +4108,8 @@
       "description": "AdaFactor 低秩自适应（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0211",
@@ -4127,8 +4127,8 @@
       "description": "AdaFactor 低秩自适应（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0212",
@@ -4146,8 +4146,8 @@
       "description": "AdaFactor 低秩自适应（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0213",
@@ -4165,8 +4165,8 @@
       "description": "AdaFactor 低秩自适应（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0214",
@@ -4184,8 +4184,8 @@
       "description": "AdaFactor 低秩自适应（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0215",
@@ -4203,8 +4203,8 @@
       "description": "AdaFactor 低秩自适应（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0216",
@@ -4222,8 +4222,8 @@
       "description": "AdaFactor 低秩自适应（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0217",
@@ -4241,8 +4241,8 @@
       "description": "RAdam 整流 Adam（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0218",
@@ -4260,8 +4260,8 @@
       "description": "RAdam 整流 Adam（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0219",
@@ -4279,8 +4279,8 @@
       "description": "RAdam 整流 Adam（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0220",
@@ -4298,8 +4298,8 @@
       "description": "RAdam 整流 Adam（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0221",
@@ -4317,8 +4317,8 @@
       "description": "RAdam 整流 Adam（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0222",
@@ -4336,8 +4336,8 @@
       "description": "RAdam 整流 Adam（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0223",
@@ -4355,8 +4355,8 @@
       "description": "RAdam 整流 Adam（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0224",
@@ -4374,8 +4374,8 @@
       "description": "RAdam 整流 Adam（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0225",
@@ -4393,8 +4393,8 @@
       "description": "Lookahead 外层推进（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0226",
@@ -4412,8 +4412,8 @@
       "description": "Lookahead 外层推进（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0227",
@@ -4431,8 +4431,8 @@
       "description": "Lookahead 外层推进（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0228",
@@ -4450,8 +4450,8 @@
       "description": "Lookahead 外层推进（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0229",
@@ -4469,8 +4469,8 @@
       "description": "Lookahead 外层推进（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0230",
@@ -4488,8 +4488,8 @@
       "description": "Lookahead 外层推进（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0231",
@@ -4507,8 +4507,8 @@
       "description": "Lookahead 外层推进（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0232",
@@ -4526,8 +4526,8 @@
       "description": "Lookahead 外层推进（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0233",
@@ -4545,8 +4545,8 @@
       "description": "梯度裁剪（norm / value）（step 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0234",
@@ -4564,8 +4564,8 @@
       "description": "梯度裁剪（norm / value）（init 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0235",
@@ -4583,8 +4583,8 @@
       "description": "梯度裁剪（norm / value）（reset 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0236",
@@ -4602,8 +4602,8 @@
       "description": "梯度裁剪（norm / value）（clip 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0237",
@@ -4621,8 +4621,8 @@
       "description": "梯度裁剪（norm / value）（schedule 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0238",
@@ -4640,8 +4640,8 @@
       "description": "梯度裁剪（norm / value）（fuse 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0239",
@@ -4659,8 +4659,8 @@
       "description": "梯度裁剪（norm / value）（stream 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0240",
@@ -4678,8 +4678,8 @@
       "description": "梯度裁剪（norm / value）（batch 变体）",
       "reuse": "PyTorch Optim / DeepSpeed / Lion(Google) / Adafactor",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0241",

@@ -150,9 +150,12 @@ def main():
         and (eco is None or eco[0])
     print("结果:", "✅ 全绿（契约 + 功能 + 生态自检通过）" if ok_total else "⚠️ 存在失败项")
     if func_total:
-        print(f"功能覆盖: M0 数学算子 {func_pass}/{func_total} 条真实算子交叉校验通过"
-              if func_pass == func_total else
-              f"功能覆盖: {func_pass}/{func_total} 通过（详见上方功能失败）")
+        impl = " + ".join(m["name"] for m in cat["meta"]["modules"]
+                          if func_by_mod[m["key"]][0] > 0)
+        if func_pass == func_total:
+            print(f"功能覆盖: {impl} {func_pass}/{func_total} 条真实算子交叉校验通过")
+        else:
+            print(f"功能覆盖: {func_pass}/{func_total} 通过（详见上方功能失败）")
     print(LINE)
     return 0 if ok_total else 1
 
