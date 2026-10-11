@@ -79,10 +79,12 @@
 ```bash
 git clone https://github.com/CJX0712/world-class-ai.git
 cd world-class-ai
-python verify.py          # 零依赖（仅 Python 3.8+ 标准库）
+pip install -r requirements.txt   # 数值内核：numpy（仅功能自检需要）
+python verify.py
 ```
 
-预期输出：`✅ 全绿` —— 1024 条结构完整、逐项契约自检通过。
+预期输出：`✅ 全绿` —— 1024 条结构完整、逐项契约自检通过；已实现族（M0）运行真实算子并与
+独立参照 / 解析不变量交叉校验，残差达机器精度级。
 
 ### 重新生成目录（可复现）
 ```bash
@@ -122,8 +124,22 @@ world-class-ai/
 | ID 唯一且连续 MI-0001..MI-1024 | ✅ |
 | 依赖（deps）指向存在项 | ✅ |
 | 每条均有分类处理器覆盖 | ✅ |
-| 零外部依赖 / 可离线运行 | ✅ |
-| GitHub Actions CI | ✅ |
+| 契约自检（结构 + 字段 + 覆盖） | ✅ 1024/1024 |
+| **功能自检（M0 真实算子交叉校验）** | ✅ **144/144**（机器精度级） |
+| GitHub Actions CI（3.10–3.13） | ✅ |
+
+---
+
+## 实现进度（闭环交付）
+
+| 模块 | 状态 | 说明 |
+|------|------|------|
+| **M0 数学算子** | ✅ `implemented` | 18 族 × 8 变体 = 144 条，全部由 `handlers/math.py` 以 **NumPy 世界顶级数值内核**实现（Cholesky/QR/SVD/特征走 `numpy.linalg`，FFT 走 `numpy.fft`，LU 走标准 Doolittle 部分主元），并经**独立参照 + 解析不变量**交叉校验（`‖A−LLᵀ‖→0`、`P·L·U=A`、朴素 DFT 对照等） |
+| M1–M9 | 🚧 skeleton | 契约自检通过；按「集大成」逐步落地真实算子，落地后将 `status` 置 `implemented`、`verify` 置 `functional` |
+
+> 不变量方法论与 `jsforge` / `*forge` 系列一致：每条真实算子必须有可独立验证的硬金标准。
+
+---
 
 ---
 
