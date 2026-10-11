@@ -51,10 +51,16 @@ class MicroOp:
         return True, "ok"
 
     def run(self, *args, **kwargs):
-        """骨架阶段抛出 NotImplementedError；实现阶段替换为真实算子。"""
-        raise NotImplementedError(
-            f"[{self.name}] 骨架未实现。集大成复用目标：{self.reuse}"
-        )
+        """运行该微指令：委派给对应分类处理器的 execute（已实现族跑真实算子，
+        未实现族抛出 NotImplementedError 并提示集大成复用目标）。"""
+        return handlers.execute(self, *args, **kwargs)
+
+    def functional_check(self):
+        """功能自检：运行真实算子并与独立参照/解析不变量交叉校验。
+
+        返回 (ok, detail)（已实现族）或 None（仍为骨架）。
+        """
+        return handlers.functional_check(self)
 
 
 class Registry:
