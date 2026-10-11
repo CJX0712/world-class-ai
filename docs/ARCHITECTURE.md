@@ -69,3 +69,13 @@
 
 > 设计纪律：L10 不重新发明任何算子，只**规范化**其接口、依赖与复用目标；真实实现
 > 一律"集大成"指向 L2–L9 列出的世界顶级开源。
+
+---
+
+## 生态映射 · 全量仓库索引
+
+L1–L9 不是空中楼阁——GitHub [@CJX0712](https://github.com/CJX0712) 下 **230 个算法 / 系统仓库** 已按本架构逐层落地，并标注质量评级（S/A/B/C）。
+
+- 逐仓库导航与层 × 评级质量矩阵见 **[ECOSYSTEM.md](ECOSYSTEM.md)**。
+- 由 `tools/build_ecosystem.py` 确定性生成（输入 `src/ai_sys/data/repos_raw.jsonl`），分类关键词透明可审计，人工策展覆盖见脚本内 `OVERRIDES`。
+- 关系：L10（本仓库 `micro_instructions.json`）是**微指令规范**；L1–L9 是**真实仓库落地**；二者经 `verify.py` 统一闭环验证。

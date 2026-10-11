@@ -74,6 +74,37 @@
 
 ---
 
+## 生态总览 · 全量仓库索引（跨仓库导航 + 质量矩阵）
+
+本母核不是孤立的：它把 GitHub [@CJX0712](https://github.com/CJX0712) 下 **230 个算法 / 系统仓库** 按「十层分解架构」统一归类，逐仓库标注 **质量评级（S/A/B/C）** 与 **集大成复用目标**，形成可导航、可审计的总览。
+
+> 完整矩阵与逐仓库导航见 **[docs/ECOSYSTEM.md](docs/ECOSYSTEM.md)**（由 `tools/build_ecosystem.py` 确定性生成，输入 `src/ai_sys/data/repos_raw.jsonl`）。
+
+| 层 | 名称 | 仓库数 | 集大成复用目标 |
+|----|------|--------|----------------|
+| L1 | 范式层 Paradigms | 47 | ReAct · Constitutional AI · AutoGen · LangGraph |
+| L2 | 数学基础层 | 30 | Eigen · JAX · cuBLAS · NumPy |
+| L3 | 算法原语层 | 40 | PyTorch Optim · DeepSpeed · Lion · Adafactor |
+| L4 | 模型架构层 | 28 | Megatron-LM · TIMM · FlashAttention |
+| L5 | 训练系统层 | 46 | DeepSpeed ZeRO · Accelerate · Optuna |
+| L6 | 推理引擎层 | 7 | vLLM · TensorRT-LLM · llama.cpp |
+| L7 | 算子内核层 | 3 | PyTorch ATen · XLA · Triton |
+| L8 | 数据IO层 | 13 | Tokenizers(Rust) · FAISS · Arrow |
+| L9 | 运行时编排层 | 14 | Ray · asyncio · OpenTelemetry |
+| L10 | 微指令层 | 2 | cuBLAS / PyTorch / vLLM（逐条 reuse） |
+
+**质量矩阵（层 × 评级，快照）**
+
+| 评级 | S | A | B | C | 合计 |
+|------|---|---|---|---|------|
+| 仓库数 | 7 | 119 | 94 | 10 | 230 |
+
+- **S=7**：`atlas-ai-stack` · `stellar-nexus` · `effattnforge` · `attribforge` · `causalforge` · `tianshu-ai` · `world-class-ai`
+- **评级口径**：`S`=明示「质量等级 S」；`A`=已交付且带硬验证信号（单测全绿 / 基准 / 不变量 / 可复现）；`B`=已交付实仓库；`C`=占位 / 薄仓库 / 工具性。
+- 复现：`python tools/build_ecosystem.py`（产出 `docs/ECOSYSTEM.md` + `src/ai_sys/data/ecosystem.json`）。
+
+---
+
 ## 快速开始
 
 ```bash
@@ -98,19 +129,23 @@ python tools/build_catalog.py   # 确定性重算 micro_instructions.json
 ```
 world-class-ai/
 ├── README.md                     # 本文件
-├── verify.py                     # 闭环验证器（1024 项自检）
+├── verify.py                     # 闭环验证器（1024 项 + 生态一致性自检）
 ├── tools/
-│   └── build_catalog.py          # 1024 微指令确定性生成器（单一事实源）
+│   ├── build_catalog.py          # 1024 微指令确定性生成器（单一事实源）
+│   └── build_ecosystem.py        # 全量仓库生态目录生成器（跨仓库导航 + 质量矩阵）
 ├── src/ai_sys/
 │   ├── registry.py               # MicroOp 注册表 + 逐项 self_check
 │   ├── data/
-│   │   └── micro_instructions.json   # 生成的 1024 条目录
+│   │   ├── micro_instructions.json   # 生成的 1024 条目录
+│   │   ├── repos_raw.jsonl          # 仓库快照（GitHub API，离线可复现输入）
+│   │   └── ecosystem.json           # 生成的生态目录（机读）
 │   └── handlers/                 # 10 个分类处理器（实现落脚点）
 │       ├── math.py  optim.py  forward.py  training.py  inference.py
 │       └── tensor.py data.py runtime.py control.py system.py
 ├── docs/
 │   ├── ARCHITECTURE.md           # 十层架构详述
-│   └── LAYER10.md                # 1024 微指令规范与扩展指南
+│   ├── LAYER10.md                # 1024 微指令规范与扩展指南
+│   └── ECOSYSTEM.md              # 全量仓库索引 + 质量矩阵（跨仓库导航）
 └── .github/workflows/verify.yml  # 可复现 CI
 ```
 
@@ -127,6 +162,7 @@ world-class-ai/
 | 契约自检（结构 + 字段 + 覆盖） | ✅ 1024/1024 |
 | **功能自检（M0 真实算子交叉校验）** | ✅ **144/144**（机器精度级） |
 | GitHub Actions CI（3.10–3.13） | ✅ |
+| **生态目录一致性**（230 仓库 / 分层 / 评级 / 计数） | ✅ |
 
 ---
 
