@@ -258,6 +258,11 @@ LAYER_NAMES = {
     "L10": "微指令层 Micro-Instructions",
 }
 
+# 已真实落地（status=implemented, verify=functional）的模块键集合。
+# 当前 M0 数学算子 18 族全部由 handlers/math.py 以 NumPy 世界顶级内核实现，
+# 并经独立参照 + 解析不变量交叉校验（residual → 机器精度级）。新增实现时在此扩充。
+IMPLEMENTED_MODULES = {"M0"}
+
 BUILD_TIME = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
@@ -277,6 +282,7 @@ def build():
                 if fam_name not in family_first_id:
                     family_first_id[fam_name] = mid
                 desc = f"{fam_desc}（{variant} 变体）"
+                implemented = key in IMPLEMENTED_MODULES
                 entry = {
                     "id": mid,
                     "index": index,
@@ -293,8 +299,8 @@ def build():
                     "description": desc,
                     "reuse": mod["reuse"],
                     "deps": [],
-                    "status": "skeleton",
-                    "verify": "contract",
+                    "status": "implemented" if implemented else "skeleton",
+                    "verify": "functional" if implemented else "contract",
                 }
                 entries.append(entry)
 
