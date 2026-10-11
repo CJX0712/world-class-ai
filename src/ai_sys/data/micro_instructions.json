@@ -3,7 +3,7 @@
     "project": "world-class-ai",
     "title": "世界顶级 AI 系统 · 第十层 1024 微指令",
     "author": "晨星",
-    "build_time": "2026-10-11T21:20:57Z",
+    "build_time": "2026-10-11T21:35:35Z",
     "total": 1024,
     "modules": [
       {
@@ -4699,8 +4699,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0242",
@@ -4720,8 +4720,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0243",
@@ -4741,8 +4741,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0244",
@@ -4762,8 +4762,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0245",
@@ -4783,8 +4783,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0246",
@@ -4804,8 +4804,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0247",
@@ -4825,8 +4825,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0248",
@@ -4846,8 +4846,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0249",
@@ -4867,8 +4867,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0250",
@@ -4888,8 +4888,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0251",
@@ -4909,8 +4909,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0252",
@@ -4930,8 +4930,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0253",
@@ -4951,8 +4951,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0254",
@@ -4972,8 +4972,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0255",
@@ -4993,8 +4993,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0256",
@@ -5014,8 +5014,8 @@
       "deps": [
         "MI-0009"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0257",
@@ -5033,8 +5033,8 @@
       "description": "二维卷积（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0258",
@@ -5052,8 +5052,8 @@
       "description": "二维卷积（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0259",
@@ -5071,8 +5071,8 @@
       "description": "二维卷积（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0260",
@@ -5090,8 +5090,8 @@
       "description": "二维卷积（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0261",
@@ -5109,8 +5109,8 @@
       "description": "二维卷积（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0262",
@@ -5128,8 +5128,8 @@
       "description": "二维卷积（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0263",
@@ -5147,8 +5147,8 @@
       "description": "二维卷积（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0264",
@@ -5166,8 +5166,8 @@
       "description": "二维卷积（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0265",
@@ -5185,8 +5185,8 @@
       "description": "一维卷积（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0266",
@@ -5204,8 +5204,8 @@
       "description": "一维卷积（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0267",
@@ -5223,8 +5223,8 @@
       "description": "一维卷积（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0268",
@@ -5242,8 +5242,8 @@
       "description": "一维卷积（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0269",
@@ -5261,8 +5261,8 @@
       "description": "一维卷积（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0270",
@@ -5280,8 +5280,8 @@
       "description": "一维卷积（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0271",
@@ -5299,8 +5299,8 @@
       "description": "一维卷积（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0272",
@@ -5318,8 +5318,8 @@
       "description": "一维卷积（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0273",
@@ -5337,8 +5337,8 @@
       "description": "深度可分离卷积（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0274",
@@ -5356,8 +5356,8 @@
       "description": "深度可分离卷积（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0275",
@@ -5375,8 +5375,8 @@
       "description": "深度可分离卷积（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0276",
@@ -5394,8 +5394,8 @@
       "description": "深度可分离卷积（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0277",
@@ -5413,8 +5413,8 @@
       "description": "深度可分离卷积（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0278",
@@ -5432,8 +5432,8 @@
       "description": "深度可分离卷积（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0279",
@@ -5451,8 +5451,8 @@
       "description": "深度可分离卷积（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0280",
@@ -5470,8 +5470,8 @@
       "description": "深度可分离卷积（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0281",
@@ -5489,8 +5489,8 @@
       "description": "最大池化（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0282",
@@ -5508,8 +5508,8 @@
       "description": "最大池化（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0283",
@@ -5527,8 +5527,8 @@
       "description": "最大池化（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0284",
@@ -5546,8 +5546,8 @@
       "description": "最大池化（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0285",
@@ -5565,8 +5565,8 @@
       "description": "最大池化（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0286",
@@ -5584,8 +5584,8 @@
       "description": "最大池化（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0287",
@@ -5603,8 +5603,8 @@
       "description": "最大池化（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0288",
@@ -5622,8 +5622,8 @@
       "description": "最大池化（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0289",
@@ -5641,8 +5641,8 @@
       "description": "平均池化（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0290",
@@ -5660,8 +5660,8 @@
       "description": "平均池化（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0291",
@@ -5679,8 +5679,8 @@
       "description": "平均池化（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0292",
@@ -5698,8 +5698,8 @@
       "description": "平均池化（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0293",
@@ -5717,8 +5717,8 @@
       "description": "平均池化（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0294",
@@ -5736,8 +5736,8 @@
       "description": "平均池化（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0295",
@@ -5755,8 +5755,8 @@
       "description": "平均池化（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0296",
@@ -5774,8 +5774,8 @@
       "description": "平均池化（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0297",
@@ -5793,8 +5793,8 @@
       "description": "批归一化（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0298",
@@ -5812,8 +5812,8 @@
       "description": "批归一化（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0299",
@@ -5831,8 +5831,8 @@
       "description": "批归一化（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0300",
@@ -5850,8 +5850,8 @@
       "description": "批归一化（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0301",
@@ -5869,8 +5869,8 @@
       "description": "批归一化（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0302",
@@ -5888,8 +5888,8 @@
       "description": "批归一化（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0303",
@@ -5907,8 +5907,8 @@
       "description": "批归一化（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0304",
@@ -5926,8 +5926,8 @@
       "description": "批归一化（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0305",
@@ -5945,8 +5945,8 @@
       "description": "层归一化层（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0306",
@@ -5964,8 +5964,8 @@
       "description": "层归一化层（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0307",
@@ -5983,8 +5983,8 @@
       "description": "层归一化层（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0308",
@@ -6002,8 +6002,8 @@
       "description": "层归一化层（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0309",
@@ -6021,8 +6021,8 @@
       "description": "层归一化层（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0310",
@@ -6040,8 +6040,8 @@
       "description": "层归一化层（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0311",
@@ -6059,8 +6059,8 @@
       "description": "层归一化层（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0312",
@@ -6078,8 +6078,8 @@
       "description": "层归一化层（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0313",
@@ -6097,8 +6097,8 @@
       "description": "RMSNorm（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0314",
@@ -6116,8 +6116,8 @@
       "description": "RMSNorm（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0315",
@@ -6135,8 +6135,8 @@
       "description": "RMSNorm（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0316",
@@ -6154,8 +6154,8 @@
       "description": "RMSNorm（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0317",
@@ -6173,8 +6173,8 @@
       "description": "RMSNorm（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0318",
@@ -6192,8 +6192,8 @@
       "description": "RMSNorm（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0319",
@@ -6211,8 +6211,8 @@
       "description": "RMSNorm（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0320",
@@ -6230,8 +6230,8 @@
       "description": "RMSNorm（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0321",
@@ -6249,8 +6249,8 @@
       "description": "嵌入查表（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0322",
@@ -6268,8 +6268,8 @@
       "description": "嵌入查表（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0323",
@@ -6287,8 +6287,8 @@
       "description": "嵌入查表（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0324",
@@ -6306,8 +6306,8 @@
       "description": "嵌入查表（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0325",
@@ -6325,8 +6325,8 @@
       "description": "嵌入查表（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0326",
@@ -6344,8 +6344,8 @@
       "description": "嵌入查表（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0327",
@@ -6363,8 +6363,8 @@
       "description": "嵌入查表（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0328",
@@ -6382,8 +6382,8 @@
       "description": "嵌入查表（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0329",
@@ -6404,8 +6404,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0330",
@@ -6426,8 +6426,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0331",
@@ -6448,8 +6448,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0332",
@@ -6470,8 +6470,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0333",
@@ -6492,8 +6492,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0334",
@@ -6514,8 +6514,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0335",
@@ -6536,8 +6536,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0336",
@@ -6558,8 +6558,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0337",
@@ -6580,8 +6580,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0338",
@@ -6602,8 +6602,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0339",
@@ -6624,8 +6624,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0340",
@@ -6646,8 +6646,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0341",
@@ -6668,8 +6668,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0342",
@@ -6690,8 +6690,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0343",
@@ -6712,8 +6712,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0344",
@@ -6734,8 +6734,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0345",
@@ -6756,8 +6756,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0346",
@@ -6778,8 +6778,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0347",
@@ -6800,8 +6800,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0348",
@@ -6822,8 +6822,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0349",
@@ -6844,8 +6844,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0350",
@@ -6866,8 +6866,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0351",
@@ -6888,8 +6888,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0352",
@@ -6910,8 +6910,8 @@
         "MI-0009",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0353",
@@ -6929,8 +6929,8 @@
       "description": "MLP 前馈块（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0354",
@@ -6948,8 +6948,8 @@
       "description": "MLP 前馈块（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0355",
@@ -6967,8 +6967,8 @@
       "description": "MLP 前馈块（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0356",
@@ -6986,8 +6986,8 @@
       "description": "MLP 前馈块（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0357",
@@ -7005,8 +7005,8 @@
       "description": "MLP 前馈块（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0358",
@@ -7024,8 +7024,8 @@
       "description": "MLP 前馈块（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0359",
@@ -7043,8 +7043,8 @@
       "description": "MLP 前馈块（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0360",
@@ -7062,8 +7062,8 @@
       "description": "MLP 前馈块（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0361",
@@ -7081,8 +7081,8 @@
       "description": "LSTM 单元（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0362",
@@ -7100,8 +7100,8 @@
       "description": "LSTM 单元（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0363",
@@ -7119,8 +7119,8 @@
       "description": "LSTM 单元（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0364",
@@ -7138,8 +7138,8 @@
       "description": "LSTM 单元（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0365",
@@ -7157,8 +7157,8 @@
       "description": "LSTM 单元（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0366",
@@ -7176,8 +7176,8 @@
       "description": "LSTM 单元（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0367",
@@ -7195,8 +7195,8 @@
       "description": "LSTM 单元（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0368",
@@ -7214,8 +7214,8 @@
       "description": "LSTM 单元（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0369",
@@ -7233,8 +7233,8 @@
       "description": "GRU 单元（f32 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0370",
@@ -7252,8 +7252,8 @@
       "description": "GRU 单元（f16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0371",
@@ -7271,8 +7271,8 @@
       "description": "GRU 单元（bf16 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0372",
@@ -7290,8 +7290,8 @@
       "description": "GRU 单元（f64 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0373",
@@ -7309,8 +7309,8 @@
       "description": "GRU 单元（int8 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0374",
@@ -7328,8 +7328,8 @@
       "description": "GRU 单元（int4 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0375",
@@ -7347,8 +7347,8 @@
       "description": "GRU 单元（sparse 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0376",
@@ -7366,8 +7366,8 @@
       "description": "GRU 单元（fused 变体）",
       "reuse": "PyTorch nn / Megatron-LM / FlashAttention / TensorRT",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0377",
@@ -7389,8 +7389,8 @@
         "MI-0329",
         "MI-0353"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0378",
@@ -7412,8 +7412,8 @@
         "MI-0329",
         "MI-0353"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0379",
@@ -7435,8 +7435,8 @@
         "MI-0329",
         "MI-0353"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0380",
@@ -7458,8 +7458,8 @@
         "MI-0329",
         "MI-0353"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0381",
@@ -7481,8 +7481,8 @@
         "MI-0329",
         "MI-0353"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0382",
@@ -7504,8 +7504,8 @@
         "MI-0329",
         "MI-0353"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0383",
@@ -7527,8 +7527,8 @@
         "MI-0329",
         "MI-0353"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0384",
@@ -7550,8 +7550,8 @@
         "MI-0329",
         "MI-0353"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0385",

@@ -172,7 +172,8 @@ world-class-ai/
 |------|------|------|
 | **M0 数学算子** | ✅ `implemented` | 18 族 × 8 变体 = 144 条，全部由 `handlers/math.py` 以 **NumPy 世界顶级数值内核**实现（Cholesky/QR/SVD/特征走 `numpy.linalg`，FFT 走 `numpy.fft`，LU 走标准 Doolittle 部分主元），并经**独立参照 + 解析不变量**交叉校验（`‖A−LLᵀ‖→0`、`P·L·U=A`、朴素 DFT 对照等） |
 | **M1 优化与采样** | ✅ `implemented` | 12 族 × 8 变体 = 96 条，全部由 `handlers/optim.py` 以 **NumPy 世界顶级数值内核**实现（sgd/momentum/nesterov/adam/adamw/rmsprop/lars/lion/adafactor/radam/lookahead 忠实复刻各自原始论文算法 + gradient_clip 范数裁剪），并经**解析不变量（第一步更新精确等式）+ 收敛不变量（固定凸二次问题 loss 逼近最小可达值）+ 裁剪不变量**交叉校验 |
-| M2–M9 | 🚧 skeleton | 契约自检通过；按「集大成」逐步落地真实算子，落地后将 `status` 置 `implemented`、`verify` 置 `functional` |
+| **M2 模型前反向** | ✅ `implemented` | 18 族 × 8 变体 = 144 条，全部由 `handlers/forward.py` 以 **NumPy 世界顶级数值内核**实现，忠实复刻原始论文算法（卷积 im2col+GEMM/CS231n、自&交叉注意力 Vaswani2017、FlashAttention 在线softmax Dao2022、LayerNorm Ba2016、RMSNorm Zhang2019、BatchNorm Ioffe2015、LSTM Hochreiter1997、GRU Cho2014、Transformer 残差块），并经**独立朴素参照残差（前向族，机器精度级）+ 有限差分梯度检验（linear_bwd 相对误差~1e-5）+ 量化/稀疏/融合变体交叉校验** |
+| M3–M9 | 🚧 skeleton | 契约自检通过；按「集大成」逐步落地真实算子，落地后将 `status` 置 `implemented`、`verify` 置 `functional` |
 
 > 不变量方法论与 `jsforge` / `*forge` 系列一致：每条真实算子必须有可独立验证的硬金标准。
 

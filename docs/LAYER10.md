@@ -70,8 +70,8 @@
    （朴素 O(n³)/O(n²) 或直接公式）及**解析不变量**（如 `‖A−LLᵀ‖→0`、`P·L·U=A`、朴素 DFT
    对照）交叉校验，残差达机器精度级。
 
-当前 **M0 数学算子**（144/144 条 `functional` 全绿）与 **M1 优化与采样**（96/96 条 `functional` 全绿）均已落地；
-其余模块仍为 skeleton 阶段（契约自检通过 ✅）。新增某族真实算子后，将其 `status` 改为 `implemented`、在对应
+当前 **M0 数学算子**（144/144 条 `functional` 全绿）、**M1 优化与采样**（96/96 条 `functional` 全绿）与 **M2 模型前反向**（144/144 条 `functional` 全绿）均已落地；
+其余模块（M3–M9）仍为 skeleton 阶段（契约自检通过 ✅）。新增某族真实算子后，将其 `status` 改为 `implemented`、在对应
 `handlers/<category>.py` 中落地 `execute`/`check`，并把 `verify` 升级为 `functional`，
 自检仍保持全绿。
 
