@@ -1,2 +1,4 @@
-# 零依赖：本仓库仅使用 Python 3.8+ 标准库（json / os / sys / collections / datetime）。
-# 运行 verify.py 与 build_catalog.py 无需安装任何第三方包，可离线、可复现。
+# 数值内核依赖：NumPy（底层 LAPACK / BLAS，与 cuBLAS / Eigen / JAX-XLA 同源）。
+# 仅 M0 数学处理器（handlers/math.py）与 verify.py 的功能自检需要；
+# 契约自检（结构 / 字段 / 覆盖项）使用 Python 标准库即可。
+numpy>=1.24
