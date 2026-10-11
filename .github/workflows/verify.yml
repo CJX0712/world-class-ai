@@ -1,0 +1,27 @@
+name: verify
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Regenerate catalog (reproducibility check)
+        run: python tools/build_catalog.py
+      - name: Verify 1024 micro-instructions
+        run: python verify.py
+      - name: Fail if catalog drift
+        run: |
+          git diff --exit-code src/ai_sys/data/micro_instructions.json \
+            || (echo "micro_instructions.json 与生成器不一致，请重新生成并提交"; exit 1)

@@ -1,0 +1,2 @@
+# 零依赖：本仓库仅使用 Python 3.8+ 标准库（json / os / sys / collections / datetime）。
+# 运行 verify.py 与 build_catalog.py 无需安装任何第三方包，可离线、可复现。
