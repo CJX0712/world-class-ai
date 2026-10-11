@@ -47,5 +47,29 @@ def get_handler(category):
     return _CAT_MODULES[category]
 
 
+def execute(op, *args, **kwargs):
+    """运行分发：委派给对应分类处理器模块的 execute（已实现族跑真实算子）。"""
+    mod = _CAT_MODULES.get(op.category)
+    if mod is None:
+        raise NotImplementedError(
+            f"[{op.name}] 无对应分类处理器。集大成复用目标：{op.reuse}"
+        )
+    return mod.execute(op, *args, **kwargs)
+
+
 def covers(category, family):
     return family in COVERAGE.get(category, set())
+
+
+def functional_check(op):
+    """功能自检分发：若对应分类处理器已实现 check，则运行交叉校验。
+
+    返回 (ok, detail) 或 None（该族仍为骨架阶段）。
+    """
+    mod = _CAT_MODULES.get(op.category)
+    if mod is None:
+        return None
+    fn = getattr(mod, "check", None)
+    if fn is None:
+        return None
+    return fn(op)
