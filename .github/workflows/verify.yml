@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Install numerical kernel (NumPy)
+        run: python -m pip install -r requirements.txt
       - name: Regenerate catalog (reproducibility check)
         run: python tools/build_catalog.py
       - name: Verify 1024 micro-instructions
