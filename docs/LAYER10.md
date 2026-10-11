@@ -63,13 +63,17 @@
 
 ## 5. 自检机制
 
-`verify.py` 做两类校验：
+`verify.py` 做三类校验：
 1. **结构完整性**：总数 == 1024、ID 唯一连续、依赖有效。
 2. **逐项契约自检**：每条 `MicroOp.self_check()` 校验字段齐全、分类处理器已覆盖该族。
+3. **功能正确性**：已实现族（`status=implemented`）运行真实算子，并与**独立参照实现**
+   （朴素 O(n³)/O(n²) 或直接公式）及**解析不变量**（如 `‖A−LLᵀ‖→0`、`P·L·U=A`、朴素 DFT
+   对照）交叉校验，残差达机器精度级。
 
-当前为 **skeleton 阶段**：所有 1024 条契约自检通过（✅）。未来实现某族真实算子后，
-将其 `status` 改为 `implemented`、在对应 `handlers/<category>.py` 中落地，并把
-`verify` 升级为 `functional`（运行真实算子并比对参照实现），自检仍保持全绿。
+当前 **M0 数学算子**已落地（144/144 条 `functional` 全绿）；其余模块仍为 skeleton 阶段
+（契约自检通过 ✅）。新增某族真实算子后，将其 `status` 改为 `implemented`、在对应
+`handlers/<category>.py` 中落地 `execute`/`check`，并把 `verify` 升级为 `functional`，
+自检仍保持全绿。
 
 ## 6. 如何扩展
 
