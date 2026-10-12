@@ -175,7 +175,10 @@ world-class-ai/
 | **M2 模型前反向** | ✅ `implemented` | 18 族 × 8 变体 = 144 条，全部由 `handlers/forward.py` 以 **NumPy 世界顶级数值内核**实现，忠实复刻原始论文算法（卷积 im2col+GEMM/CS231n、自&交叉注意力 Vaswani2017、FlashAttention 在线softmax Dao2022、LayerNorm Ba2016、RMSNorm Zhang2019、BatchNorm Ioffe2015、LSTM Hochreiter1997、GRU Cho2014、Transformer 残差块），并经**独立朴素参照残差（前向族，机器精度级）+ 有限差分梯度检验（linear_bwd 相对误差~1e-5）+ 量化/稀疏/融合变体交叉校验** |
 | **M5 张量算子** | ✅ `implemented` | 12 族 × 8 dtype 变体 = 96 条，全部由 `handlers/tensor.py` 以 **NumPy 世界顶级张量内核**实现（alloc/reshape/transpose/cast/slice/concat/pad/reduce_sum/reduce_mean/reduce_max/elementwise_add/elementwise_mul），并经**独立参照（显式循环 / 不同代码路径）交叉校验**：浮点变体残差 ≤ 精度分级容差，整型/布尔变体按 float64 精确一致 |
 | **M9 系统支撑** | ✅ `implemented` | 8 族 × 8 变体 = 64 条，全部由 `handlers/system.py` 复用**世界顶级标准基础设施**（hashlib SHA-256 / RFC 4122 uuid4 / time.monotonic 单调时钟 / pydantic 式配置校验 / structlog 式结构化日志 / OpenTelemetry 式健康探针）实现，并经**不变量自检**（哈希确定性与 stream==step==batch 一致、UUID 可解析、时钟单调、配置缺失可检出、异常按约定抛出）|
-| M3–M4、M6–M8 | 🚧 skeleton | 契约自检通过；按「集大成」逐步落地真实算子，落地后将 `status` 置 `implemented`、`verify` 置 `functional` |
+| **M6 数据管道** | ✅ `implemented` | 12 族 × 8 变体 = 96 条，由 `handlers/data.py` 复用世界顶级标准与通行实现（GPT-2 风格 BPE / BERT WordPiece 分词、RFC 8259 JSON、RFC 4180 CSV、Unicode NFKC 归一化、FAISS 式向量检索），并经**往返不变量（分词→反解 == 归一化原文、JSON/CSV/特征编码往返一致、归一化幂等）+ 暴力精确最近邻参照（检索结果逐位一致）+ FIFO 顺序**交叉校验 |
+| **M7 运行时调度** | ✅ `implemented` | 12 族 × 8 变体 = 96 条，由 `handlers/runtime.py` 复用 CPython 顶级并发设施（ThreadPoolExecutor / asyncio / threading.Lock / threading.Barrier / 引用计数分配器），并经**并发不变量**（带锁自增终值精确 == 线程数×次数、屏障全员到达后才放行、释放后可重入获取、分配器记账增减、GC 回收无引用块、故障重启次数 == 失败数+1）交叉校验 |
+| **M8 控制与编排** | ✅ `implemented` | 10 族 × 8 变体 = 80 条，由 `handlers/control.py` 复用世界顶级范式（ReAct 推理步、LangGraph 式路由/规划、交叉编码器重排、指数退避、键值记忆、声明事实溯源、人工接管），并经**解析参照**（路由 == 手工 argmax、重排 == 手工降序稳定排序、退避 == base·2^i 截断解析解、记忆写入→读取往返一致、规划子任务覆盖全部步骤）交叉校验 |
+| M3–M4 | 🚧 skeleton | 契约自检通过；按「集大成」逐步落地真实算子，落地后将 `status` 置 `implemented`、`verify` 置 `functional` |
 
 > 不变量方法论与 `jsforge` / `*forge` 系列一致：每条真实算子必须有可独立验证的硬金标准。
 

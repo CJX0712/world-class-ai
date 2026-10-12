@@ -261,7 +261,7 @@ LAYER_NAMES = {
 # 已真实落地（status=implemented, verify=functional）的模块键集合。
 # 当前 M0 数学算子 18 族全部由 handlers/math.py 以 NumPy 世界顶级内核实现，
 # 并经独立参照 + 解析不变量交叉校验（residual → 机器精度级）。新增实现时在此扩充。
-IMPLEMENTED_MODULES = {"M0", "M1", "M2", "M5", "M9"}
+IMPLEMENTED_MODULES = {"M0", "M1", "M2", "M5", "M6", "M7", "M8", "M9"}
 
 BUILD_TIME = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 

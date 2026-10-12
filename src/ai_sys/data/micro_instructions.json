@@ -3,7 +3,7 @@
     "project": "world-class-ai",
     "title": "世界顶级 AI 系统 · 第十层 1024 微指令",
     "author": "晨星",
-    "build_time": "2026-10-12T16:41:00Z",
+    "build_time": "2026-10-12T16:47:13Z",
     "total": 1024,
     "modules": [
       {
@@ -13497,8 +13497,8 @@
       "description": "BPE 分词（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0690",
@@ -13516,8 +13516,8 @@
       "description": "BPE 分词（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0691",
@@ -13535,8 +13535,8 @@
       "description": "BPE 分词（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0692",
@@ -13554,8 +13554,8 @@
       "description": "BPE 分词（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0693",
@@ -13573,8 +13573,8 @@
       "description": "BPE 分词（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0694",
@@ -13592,8 +13592,8 @@
       "description": "BPE 分词（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0695",
@@ -13611,8 +13611,8 @@
       "description": "BPE 分词（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0696",
@@ -13630,8 +13630,8 @@
       "description": "BPE 分词（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0697",
@@ -13649,8 +13649,8 @@
       "description": "WordPiece 分词（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0698",
@@ -13668,8 +13668,8 @@
       "description": "WordPiece 分词（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0699",
@@ -13687,8 +13687,8 @@
       "description": "WordPiece 分词（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0700",
@@ -13706,8 +13706,8 @@
       "description": "WordPiece 分词（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0701",
@@ -13725,8 +13725,8 @@
       "description": "WordPiece 分词（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0702",
@@ -13744,8 +13744,8 @@
       "description": "WordPiece 分词（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0703",
@@ -13763,8 +13763,8 @@
       "description": "WordPiece 分词（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0704",
@@ -13782,8 +13782,8 @@
       "description": "WordPiece 分词（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0705",
@@ -13801,8 +13801,8 @@
       "description": "ID 反解为文本（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0706",
@@ -13820,8 +13820,8 @@
       "description": "ID 反解为文本（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0707",
@@ -13839,8 +13839,8 @@
       "description": "ID 反解为文本（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0708",
@@ -13858,8 +13858,8 @@
       "description": "ID 反解为文本（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0709",
@@ -13877,8 +13877,8 @@
       "description": "ID 反解为文本（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0710",
@@ -13896,8 +13896,8 @@
       "description": "ID 反解为文本（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0711",
@@ -13915,8 +13915,8 @@
       "description": "ID 反解为文本（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0712",
@@ -13934,8 +13934,8 @@
       "description": "ID 反解为文本（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0713",
@@ -13953,8 +13953,8 @@
       "description": "文本归一化（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0714",
@@ -13972,8 +13972,8 @@
       "description": "文本归一化（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0715",
@@ -13991,8 +13991,8 @@
       "description": "文本归一化（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0716",
@@ -14010,8 +14010,8 @@
       "description": "文本归一化（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0717",
@@ -14029,8 +14029,8 @@
       "description": "文本归一化（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0718",
@@ -14048,8 +14048,8 @@
       "description": "文本归一化（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0719",
@@ -14067,8 +14067,8 @@
       "description": "文本归一化（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0720",
@@ -14086,8 +14086,8 @@
       "description": "文本归一化（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0721",
@@ -14105,8 +14105,8 @@
       "description": "JSON 解析（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0722",
@@ -14124,8 +14124,8 @@
       "description": "JSON 解析（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0723",
@@ -14143,8 +14143,8 @@
       "description": "JSON 解析（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0724",
@@ -14162,8 +14162,8 @@
       "description": "JSON 解析（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0725",
@@ -14181,8 +14181,8 @@
       "description": "JSON 解析（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0726",
@@ -14200,8 +14200,8 @@
       "description": "JSON 解析（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0727",
@@ -14219,8 +14219,8 @@
       "description": "JSON 解析（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0728",
@@ -14238,8 +14238,8 @@
       "description": "JSON 解析（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0729",
@@ -14257,8 +14257,8 @@
       "description": "JSON 序列化（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0730",
@@ -14276,8 +14276,8 @@
       "description": "JSON 序列化（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0731",
@@ -14295,8 +14295,8 @@
       "description": "JSON 序列化（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0732",
@@ -14314,8 +14314,8 @@
       "description": "JSON 序列化（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0733",
@@ -14333,8 +14333,8 @@
       "description": "JSON 序列化（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0734",
@@ -14352,8 +14352,8 @@
       "description": "JSON 序列化（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0735",
@@ -14371,8 +14371,8 @@
       "description": "JSON 序列化（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0736",
@@ -14390,8 +14390,8 @@
       "description": "JSON 序列化（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0737",
@@ -14409,8 +14409,8 @@
       "description": "CSV 读取（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0738",
@@ -14428,8 +14428,8 @@
       "description": "CSV 读取（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0739",
@@ -14447,8 +14447,8 @@
       "description": "CSV 读取（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0740",
@@ -14466,8 +14466,8 @@
       "description": "CSV 读取（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0741",
@@ -14485,8 +14485,8 @@
       "description": "CSV 读取（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0742",
@@ -14504,8 +14504,8 @@
       "description": "CSV 读取（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0743",
@@ -14523,8 +14523,8 @@
       "description": "CSV 读取（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0744",
@@ -14542,8 +14542,8 @@
       "description": "CSV 读取（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0745",
@@ -14561,8 +14561,8 @@
       "description": "Parquet 列式读取（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0746",
@@ -14580,8 +14580,8 @@
       "description": "Parquet 列式读取（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0747",
@@ -14599,8 +14599,8 @@
       "description": "Parquet 列式读取（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0748",
@@ -14618,8 +14618,8 @@
       "description": "Parquet 列式读取（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0749",
@@ -14637,8 +14637,8 @@
       "description": "Parquet 列式读取（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0750",
@@ -14656,8 +14656,8 @@
       "description": "Parquet 列式读取（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0751",
@@ -14675,8 +14675,8 @@
       "description": "Parquet 列式读取（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0752",
@@ -14694,8 +14694,8 @@
       "description": "Parquet 列式读取（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0753",
@@ -14715,8 +14715,8 @@
       "deps": [
         "MI-0689"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0754",
@@ -14736,8 +14736,8 @@
       "deps": [
         "MI-0689"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0755",
@@ -14757,8 +14757,8 @@
       "deps": [
         "MI-0689"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0756",
@@ -14778,8 +14778,8 @@
       "deps": [
         "MI-0689"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0757",
@@ -14799,8 +14799,8 @@
       "deps": [
         "MI-0689"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0758",
@@ -14820,8 +14820,8 @@
       "deps": [
         "MI-0689"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0759",
@@ -14841,8 +14841,8 @@
       "deps": [
         "MI-0689"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0760",
@@ -14862,8 +14862,8 @@
       "deps": [
         "MI-0689"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0761",
@@ -14881,8 +14881,8 @@
       "description": "向量索引构建（FAISS）（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0762",
@@ -14900,8 +14900,8 @@
       "description": "向量索引构建（FAISS）（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0763",
@@ -14919,8 +14919,8 @@
       "description": "向量索引构建（FAISS）（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0764",
@@ -14938,8 +14938,8 @@
       "description": "向量索引构建（FAISS）（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0765",
@@ -14957,8 +14957,8 @@
       "description": "向量索引构建（FAISS）（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0766",
@@ -14976,8 +14976,8 @@
       "description": "向量索引构建（FAISS）（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0767",
@@ -14995,8 +14995,8 @@
       "description": "向量索引构建（FAISS）（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0768",
@@ -15014,8 +15014,8 @@
       "description": "向量索引构建（FAISS）（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0769",
@@ -15033,8 +15033,8 @@
       "description": "近似近邻检索（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0770",
@@ -15052,8 +15052,8 @@
       "description": "近似近邻检索（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0771",
@@ -15071,8 +15071,8 @@
       "description": "近似近邻检索（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0772",
@@ -15090,8 +15090,8 @@
       "description": "近似近邻检索（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0773",
@@ -15109,8 +15109,8 @@
       "description": "近似近邻检索（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0774",
@@ -15128,8 +15128,8 @@
       "description": "近似近邻检索（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0775",
@@ -15147,8 +15147,8 @@
       "description": "近似近邻检索（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0776",
@@ -15166,8 +15166,8 @@
       "description": "近似近邻检索（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0777",
@@ -15185,8 +15185,8 @@
       "description": "流式缓冲（step 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0778",
@@ -15204,8 +15204,8 @@
       "description": "流式缓冲（init 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0779",
@@ -15223,8 +15223,8 @@
       "description": "流式缓冲（reset 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0780",
@@ -15242,8 +15242,8 @@
       "description": "流式缓冲（clip 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0781",
@@ -15261,8 +15261,8 @@
       "description": "流式缓冲（schedule 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0782",
@@ -15280,8 +15280,8 @@
       "description": "流式缓冲（fuse 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0783",
@@ -15299,8 +15299,8 @@
       "description": "流式缓冲（stream 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0784",
@@ -15318,8 +15318,8 @@
       "description": "流式缓冲（batch 变体）",
       "reuse": "HuggingFace Tokenizers(Rust) / FAISS / Pandas / pyarrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0785",
@@ -15337,8 +15337,8 @@
       "description": "任务调度（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0786",
@@ -15356,8 +15356,8 @@
       "description": "任务调度（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0787",
@@ -15375,8 +15375,8 @@
       "description": "任务调度（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0788",
@@ -15394,8 +15394,8 @@
       "description": "任务调度（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0789",
@@ -15413,8 +15413,8 @@
       "description": "任务调度（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0790",
@@ -15432,8 +15432,8 @@
       "description": "任务调度（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0791",
@@ -15451,8 +15451,8 @@
       "description": "任务调度（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0792",
@@ -15470,8 +15470,8 @@
       "description": "任务调度（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0793",
@@ -15489,8 +15489,8 @@
       "description": "线程池执行（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0794",
@@ -15508,8 +15508,8 @@
       "description": "线程池执行（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0795",
@@ -15527,8 +15527,8 @@
       "description": "线程池执行（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0796",
@@ -15546,8 +15546,8 @@
       "description": "线程池执行（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0797",
@@ -15565,8 +15565,8 @@
       "description": "线程池执行（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0798",
@@ -15584,8 +15584,8 @@
       "description": "线程池执行（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0799",
@@ -15603,8 +15603,8 @@
       "description": "线程池执行（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0800",
@@ -15622,8 +15622,8 @@
       "description": "线程池执行（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0801",
@@ -15641,8 +15641,8 @@
       "description": "异步执行（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0802",
@@ -15660,8 +15660,8 @@
       "description": "异步执行（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0803",
@@ -15679,8 +15679,8 @@
       "description": "异步执行（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0804",
@@ -15698,8 +15698,8 @@
       "description": "异步执行（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0805",
@@ -15717,8 +15717,8 @@
       "description": "异步执行（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0806",
@@ -15736,8 +15736,8 @@
       "description": "异步执行（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0807",
@@ -15755,8 +15755,8 @@
       "description": "异步执行（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0808",
@@ -15774,8 +15774,8 @@
       "description": "异步执行（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0809",
@@ -15793,8 +15793,8 @@
       "description": "堆内存分配（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0810",
@@ -15812,8 +15812,8 @@
       "description": "堆内存分配（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0811",
@@ -15831,8 +15831,8 @@
       "description": "堆内存分配（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0812",
@@ -15850,8 +15850,8 @@
       "description": "堆内存分配（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0813",
@@ -15869,8 +15869,8 @@
       "description": "堆内存分配（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0814",
@@ -15888,8 +15888,8 @@
       "description": "堆内存分配（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0815",
@@ -15907,8 +15907,8 @@
       "description": "堆内存分配（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0816",
@@ -15926,8 +15926,8 @@
       "description": "堆内存分配（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0817",
@@ -15945,8 +15945,8 @@
       "description": "内存释放（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0818",
@@ -15964,8 +15964,8 @@
       "description": "内存释放（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0819",
@@ -15983,8 +15983,8 @@
       "description": "内存释放（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0820",
@@ -16002,8 +16002,8 @@
       "description": "内存释放（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0821",
@@ -16021,8 +16021,8 @@
       "description": "内存释放（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0822",
@@ -16040,8 +16040,8 @@
       "description": "内存释放（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0823",
@@ -16059,8 +16059,8 @@
       "description": "内存释放（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0824",
@@ -16078,8 +16078,8 @@
       "description": "内存释放（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0825",
@@ -16099,8 +16099,8 @@
       "deps": [
         "MI-0817"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0826",
@@ -16120,8 +16120,8 @@
       "deps": [
         "MI-0817"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0827",
@@ -16141,8 +16141,8 @@
       "deps": [
         "MI-0817"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0828",
@@ -16162,8 +16162,8 @@
       "deps": [
         "MI-0817"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0829",
@@ -16183,8 +16183,8 @@
       "deps": [
         "MI-0817"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0830",
@@ -16204,8 +16204,8 @@
       "deps": [
         "MI-0817"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0831",
@@ -16225,8 +16225,8 @@
       "deps": [
         "MI-0817"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0832",
@@ -16246,8 +16246,8 @@
       "deps": [
         "MI-0817"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0833",
@@ -16265,8 +16265,8 @@
       "description": "事件循环（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0834",
@@ -16284,8 +16284,8 @@
       "description": "事件循环（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0835",
@@ -16303,8 +16303,8 @@
       "description": "事件循环（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0836",
@@ -16322,8 +16322,8 @@
       "description": "事件循环（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0837",
@@ -16341,8 +16341,8 @@
       "description": "事件循环（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0838",
@@ -16360,8 +16360,8 @@
       "description": "事件循环（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0839",
@@ -16379,8 +16379,8 @@
       "description": "事件循环（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0840",
@@ -16398,8 +16398,8 @@
       "description": "事件循环（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0841",
@@ -16417,8 +16417,8 @@
       "description": "锁获取（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0842",
@@ -16436,8 +16436,8 @@
       "description": "锁获取（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0843",
@@ -16455,8 +16455,8 @@
       "description": "锁获取（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0844",
@@ -16474,8 +16474,8 @@
       "description": "锁获取（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0845",
@@ -16493,8 +16493,8 @@
       "description": "锁获取（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0846",
@@ -16512,8 +16512,8 @@
       "description": "锁获取（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0847",
@@ -16531,8 +16531,8 @@
       "description": "锁获取（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0848",
@@ -16550,8 +16550,8 @@
       "description": "锁获取（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0849",
@@ -16569,8 +16569,8 @@
       "description": "锁释放（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0850",
@@ -16588,8 +16588,8 @@
       "description": "锁释放（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0851",
@@ -16607,8 +16607,8 @@
       "description": "锁释放（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0852",
@@ -16626,8 +16626,8 @@
       "description": "锁释放（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0853",
@@ -16645,8 +16645,8 @@
       "description": "锁释放（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0854",
@@ -16664,8 +16664,8 @@
       "description": "锁释放（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0855",
@@ -16683,8 +16683,8 @@
       "description": "锁释放（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0856",
@@ -16702,8 +16702,8 @@
       "description": "锁释放（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0857",
@@ -16721,8 +16721,8 @@
       "description": "Barrier 同步（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0858",
@@ -16740,8 +16740,8 @@
       "description": "Barrier 同步（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0859",
@@ -16759,8 +16759,8 @@
       "description": "Barrier 同步（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0860",
@@ -16778,8 +16778,8 @@
       "description": "Barrier 同步（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0861",
@@ -16797,8 +16797,8 @@
       "description": "Barrier 同步（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0862",
@@ -16816,8 +16816,8 @@
       "description": "Barrier 同步（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0863",
@@ -16835,8 +16835,8 @@
       "description": "Barrier 同步（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0864",
@@ -16854,8 +16854,8 @@
       "description": "Barrier 同步（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0865",
@@ -16873,8 +16873,8 @@
       "description": "流水线阶段（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0866",
@@ -16892,8 +16892,8 @@
       "description": "流水线阶段（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0867",
@@ -16911,8 +16911,8 @@
       "description": "流水线阶段（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0868",
@@ -16930,8 +16930,8 @@
       "description": "流水线阶段（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0869",
@@ -16949,8 +16949,8 @@
       "description": "流水线阶段（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0870",
@@ -16968,8 +16968,8 @@
       "description": "流水线阶段（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0871",
@@ -16987,8 +16987,8 @@
       "description": "流水线阶段（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0872",
@@ -17006,8 +17006,8 @@
       "description": "流水线阶段（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0873",
@@ -17025,8 +17025,8 @@
       "description": "故障重启（step 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0874",
@@ -17044,8 +17044,8 @@
       "description": "故障重启（init 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0875",
@@ -17063,8 +17063,8 @@
       "description": "故障重启（reset 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0876",
@@ -17082,8 +17082,8 @@
       "description": "故障重启（clip 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0877",
@@ -17101,8 +17101,8 @@
       "description": "故障重启（schedule 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0878",
@@ -17120,8 +17120,8 @@
       "description": "故障重启（fuse 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0879",
@@ -17139,8 +17139,8 @@
       "description": "故障重启（stream 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0880",
@@ -17158,8 +17158,8 @@
       "description": "故障重启（batch 变体）",
       "reuse": "Ray / asyncio / tcmalloc / mimalloc",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0881",
@@ -17177,8 +17177,8 @@
       "description": "智能体推理步（step 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0882",
@@ -17196,8 +17196,8 @@
       "description": "智能体推理步（init 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0883",
@@ -17215,8 +17215,8 @@
       "description": "智能体推理步（reset 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0884",
@@ -17234,8 +17234,8 @@
       "description": "智能体推理步（clip 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0885",
@@ -17253,8 +17253,8 @@
       "description": "智能体推理步（schedule 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0886",
@@ -17272,8 +17272,8 @@
       "description": "智能体推理步（fuse 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0887",
@@ -17291,8 +17291,8 @@
       "description": "智能体推理步（stream 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0888",
@@ -17310,8 +17310,8 @@
       "description": "智能体推理步（batch 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0889",
@@ -17329,8 +17329,8 @@
       "description": "工具路由判定（step 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0890",
@@ -17348,8 +17348,8 @@
       "description": "工具路由判定（init 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0891",
@@ -17367,8 +17367,8 @@
       "description": "工具路由判定（reset 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0892",
@@ -17386,8 +17386,8 @@
       "description": "工具路由判定（clip 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0893",
@@ -17405,8 +17405,8 @@
       "description": "工具路由判定（schedule 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0894",
@@ -17424,8 +17424,8 @@
       "description": "工具路由判定（fuse 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0895",
@@ -17443,8 +17443,8 @@
       "description": "工具路由判定（stream 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0896",
@@ -17462,8 +17462,8 @@
       "description": "工具路由判定（batch 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0897",
@@ -17483,8 +17483,8 @@
       "deps": [
         "MI-0889"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0898",
@@ -17504,8 +17504,8 @@
       "deps": [
         "MI-0889"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0899",
@@ -17525,8 +17525,8 @@
       "deps": [
         "MI-0889"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0900",
@@ -17546,8 +17546,8 @@
       "deps": [
         "MI-0889"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0901",
@@ -17567,8 +17567,8 @@
       "deps": [
         "MI-0889"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0902",
@@ -17588,8 +17588,8 @@
       "deps": [
         "MI-0889"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0903",
@@ -17609,8 +17609,8 @@
       "deps": [
         "MI-0889"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0904",
@@ -17630,8 +17630,8 @@
       "deps": [
         "MI-0889"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0905",
@@ -17649,8 +17649,8 @@
       "description": "任务分解规划（step 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0906",
@@ -17668,8 +17668,8 @@
       "description": "任务分解规划（init 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0907",
@@ -17687,8 +17687,8 @@
       "description": "任务分解规划（reset 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0908",
@@ -17706,8 +17706,8 @@
       "description": "任务分解规划（clip 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0909",
@@ -17725,8 +17725,8 @@
       "description": "任务分解规划（schedule 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0910",
@@ -17744,8 +17744,8 @@
       "description": "任务分解规划（fuse 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0911",
@@ -17763,8 +17763,8 @@
       "description": "任务分解规划（stream 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0912",
@@ -17782,8 +17782,8 @@
       "description": "任务分解规划（batch 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0913",
@@ -17803,8 +17803,8 @@
       "deps": [
         "MI-0025"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0914",
@@ -17824,8 +17824,8 @@
       "deps": [
         "MI-0025"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0915",
@@ -17845,8 +17845,8 @@
       "deps": [
         "MI-0025"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0916",
@@ -17866,8 +17866,8 @@
       "deps": [
         "MI-0025"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0917",
@@ -17887,8 +17887,8 @@
       "deps": [
         "MI-0025"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0918",
@@ -17908,8 +17908,8 @@
       "deps": [
         "MI-0025"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0919",
@@ -17929,8 +17929,8 @@
       "deps": [
         "MI-0025"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0920",
@@ -17950,8 +17950,8 @@
       "deps": [
         "MI-0025"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0921",
@@ -17969,8 +17969,8 @@
       "description": "声明事实溯源（step 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0922",
@@ -17988,8 +17988,8 @@
       "description": "声明事实溯源（init 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0923",
@@ -18007,8 +18007,8 @@
       "description": "声明事实溯源（reset 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0924",
@@ -18026,8 +18026,8 @@
       "description": "声明事实溯源（clip 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0925",
@@ -18045,8 +18045,8 @@
       "description": "声明事实溯源（schedule 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0926",
@@ -18064,8 +18064,8 @@
       "description": "声明事实溯源（fuse 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0927",
@@ -18083,8 +18083,8 @@
       "description": "声明事实溯源（stream 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0928",
@@ -18102,8 +18102,8 @@
       "description": "声明事实溯源（batch 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0929",
@@ -18121,8 +18121,8 @@
       "description": "记忆读取（step 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0930",
@@ -18140,8 +18140,8 @@
       "description": "记忆读取（init 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0931",
@@ -18159,8 +18159,8 @@
       "description": "记忆读取（reset 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0932",
@@ -18178,8 +18178,8 @@
       "description": "记忆读取（clip 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0933",
@@ -18197,8 +18197,8 @@
       "description": "记忆读取（schedule 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0934",
@@ -18216,8 +18216,8 @@
       "description": "记忆读取（fuse 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0935",
@@ -18235,8 +18235,8 @@
       "description": "记忆读取（stream 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0936",
@@ -18254,8 +18254,8 @@
       "description": "记忆读取（batch 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0937",
@@ -18273,8 +18273,8 @@
       "description": "记忆写入（step 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0938",
@@ -18292,8 +18292,8 @@
       "description": "记忆写入（init 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0939",
@@ -18311,8 +18311,8 @@
       "description": "记忆写入（reset 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0940",
@@ -18330,8 +18330,8 @@
       "description": "记忆写入（clip 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0941",
@@ -18349,8 +18349,8 @@
       "description": "记忆写入（schedule 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0942",
@@ -18368,8 +18368,8 @@
       "description": "记忆写入（fuse 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0943",
@@ -18387,8 +18387,8 @@
       "description": "记忆写入（stream 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0944",
@@ -18406,8 +18406,8 @@
       "description": "记忆写入（batch 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0945",
@@ -18425,8 +18425,8 @@
       "description": "指数退避重试（step 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0946",
@@ -18444,8 +18444,8 @@
       "description": "指数退避重试（init 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0947",
@@ -18463,8 +18463,8 @@
       "description": "指数退避重试（reset 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0948",
@@ -18482,8 +18482,8 @@
       "description": "指数退避重试（clip 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0949",
@@ -18501,8 +18501,8 @@
       "description": "指数退避重试（schedule 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0950",
@@ -18520,8 +18520,8 @@
       "description": "指数退避重试（fuse 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0951",
@@ -18539,8 +18539,8 @@
       "description": "指数退避重试（stream 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0952",
@@ -18558,8 +18558,8 @@
       "description": "指数退避重试（batch 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0953",
@@ -18577,8 +18577,8 @@
       "description": "人工接管（step 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0954",
@@ -18596,8 +18596,8 @@
       "description": "人工接管（init 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0955",
@@ -18615,8 +18615,8 @@
       "description": "人工接管（reset 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0956",
@@ -18634,8 +18634,8 @@
       "description": "人工接管（clip 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0957",
@@ -18653,8 +18653,8 @@
       "description": "人工接管（schedule 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0958",
@@ -18672,8 +18672,8 @@
       "description": "人工接管（fuse 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0959",
@@ -18691,8 +18691,8 @@
       "description": "人工接管（stream 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0960",
@@ -18710,8 +18710,8 @@
       "description": "人工接管（batch 变体）",
       "reuse": "LangGraph / AutoGen / ReAct / Constitutional AI",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0961",
