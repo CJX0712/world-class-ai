@@ -178,7 +178,8 @@ world-class-ai/
 | **M6 数据管道** | ✅ `implemented` | 12 族 × 8 变体 = 96 条，由 `handlers/data.py` 复用世界顶级标准与通行实现（GPT-2 风格 BPE / BERT WordPiece 分词、RFC 8259 JSON、RFC 4180 CSV、Unicode NFKC 归一化、FAISS 式向量检索），并经**往返不变量（分词→反解 == 归一化原文、JSON/CSV/特征编码往返一致、归一化幂等）+ 暴力精确最近邻参照（检索结果逐位一致）+ FIFO 顺序**交叉校验 |
 | **M7 运行时调度** | ✅ `implemented` | 12 族 × 8 变体 = 96 条，由 `handlers/runtime.py` 复用 CPython 顶级并发设施（ThreadPoolExecutor / asyncio / threading.Lock / threading.Barrier / 引用计数分配器），并经**并发不变量**（带锁自增终值精确 == 线程数×次数、屏障全员到达后才放行、释放后可重入获取、分配器记账增减、GC 回收无引用块、故障重启次数 == 失败数+1）交叉校验 |
 | **M8 控制与编排** | ✅ `implemented` | 10 族 × 8 变体 = 80 条，由 `handlers/control.py` 复用世界顶级范式（ReAct 推理步、LangGraph 式路由/规划、交叉编码器重排、指数退避、键值记忆、声明事实溯源、人工接管），并经**解析参照**（路由 == 手工 argmax、重排 == 手工降序稳定排序、退避 == base·2^i 截断解析解、记忆写入→读取往返一致、规划子任务覆盖全部步骤）交叉校验 |
-| M3–M4 | 🚧 skeleton | 契约自检通过；按「集大成」逐步落地真实算子，落地后将 `status` 置 `implemented`、`verify` 置 `functional` |
+| **M3 训练循环** | ✅ `implemented` | 12 族 × 8 变体 = 96 条，由 `handlers/training.py` 复用世界顶级训练系统范式（PyTorch autograd 反向、梯度累积线性性、Ring AllReduce、AMP 混合精度、余弦退火、state_dict 持久化、耐心早停），并经**有限差分梯度检验（backward 解析梯度 vs 中心差分，相对误差<1e-3）+ 梯度累积 == 全批梯度（精确）+ 余弦/线性调度解析式 + 检查点往返 + AllReduce 和 == 各 rank 手工求和**交叉校验 |
+| **M4 推理服务** | ✅ `implemented` | 14 族 × 8 变体 = 112 条，由 `handlers/inference.py` 复用世界顶级推理引擎范式（vLLM PagedAttention、连续批处理、KV 缓存、投机解码、GPTQ/AWQ 量化、算子融合、核采样、束搜索、重复惩罚），并经**等价性与真值参照**（分页注意力 == 全量注意力逐位等价、量化误差 <= 半步长解析界、束搜索 == 暴力枚举最优序列、采样必落在核集内、KV 拼接等价、投机接受前缀与贪心一致、融合 == 未融合）交叉校验 |
 
 > 不变量方法论与 `jsforge` / `*forge` 系列一致：每条真实算子必须有可独立验证的硬金标准。
 

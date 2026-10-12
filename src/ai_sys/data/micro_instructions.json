@@ -3,7 +3,7 @@
     "project": "world-class-ai",
     "title": "世界顶级 AI 系统 · 第十层 1024 微指令",
     "author": "晨星",
-    "build_time": "2026-10-12T16:47:13Z",
+    "build_time": "2026-10-12T16:52:37Z",
     "total": 1024,
     "modules": [
       {
@@ -7569,8 +7569,8 @@
       "description": "数据迭代器取批（step 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0386",
@@ -7588,8 +7588,8 @@
       "description": "数据迭代器取批（init 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0387",
@@ -7607,8 +7607,8 @@
       "description": "数据迭代器取批（reset 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0388",
@@ -7626,8 +7626,8 @@
       "description": "数据迭代器取批（clip 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0389",
@@ -7645,8 +7645,8 @@
       "description": "数据迭代器取批（schedule 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0390",
@@ -7664,8 +7664,8 @@
       "description": "数据迭代器取批（fuse 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0391",
@@ -7683,8 +7683,8 @@
       "description": "数据迭代器取批（stream 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0392",
@@ -7702,8 +7702,8 @@
       "description": "数据迭代器取批（batch 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0393",
@@ -7721,8 +7721,8 @@
       "description": "样本批组装（step 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0394",
@@ -7740,8 +7740,8 @@
       "description": "样本批组装（init 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0395",
@@ -7759,8 +7759,8 @@
       "description": "样本批组装（reset 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0396",
@@ -7778,8 +7778,8 @@
       "description": "样本批组装（clip 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0397",
@@ -7797,8 +7797,8 @@
       "description": "样本批组装（schedule 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0398",
@@ -7816,8 +7816,8 @@
       "description": "样本批组装（fuse 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0399",
@@ -7835,8 +7835,8 @@
       "description": "样本批组装（stream 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0400",
@@ -7854,8 +7854,8 @@
       "description": "样本批组装（batch 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0401",
@@ -7873,8 +7873,8 @@
       "description": "损失计算（step 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0402",
@@ -7892,8 +7892,8 @@
       "description": "损失计算（init 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0403",
@@ -7911,8 +7911,8 @@
       "description": "损失计算（reset 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0404",
@@ -7930,8 +7930,8 @@
       "description": "损失计算（clip 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0405",
@@ -7949,8 +7949,8 @@
       "description": "损失计算（schedule 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0406",
@@ -7968,8 +7968,8 @@
       "description": "损失计算（fuse 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0407",
@@ -7987,8 +7987,8 @@
       "description": "损失计算（stream 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0408",
@@ -8006,8 +8006,8 @@
       "description": "损失计算（batch 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0409",
@@ -8027,8 +8027,8 @@
       "deps": [
         "MI-0249"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0410",
@@ -8048,8 +8048,8 @@
       "deps": [
         "MI-0249"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0411",
@@ -8069,8 +8069,8 @@
       "deps": [
         "MI-0249"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0412",
@@ -8090,8 +8090,8 @@
       "deps": [
         "MI-0249"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0413",
@@ -8111,8 +8111,8 @@
       "deps": [
         "MI-0249"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0414",
@@ -8132,8 +8132,8 @@
       "deps": [
         "MI-0249"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0415",
@@ -8153,8 +8153,8 @@
       "deps": [
         "MI-0249"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0416",
@@ -8174,8 +8174,8 @@
       "deps": [
         "MI-0249"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0417",
@@ -8195,8 +8195,8 @@
       "deps": [
         "MI-0169"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0418",
@@ -8216,8 +8216,8 @@
       "deps": [
         "MI-0169"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0419",
@@ -8237,8 +8237,8 @@
       "deps": [
         "MI-0169"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0420",
@@ -8258,8 +8258,8 @@
       "deps": [
         "MI-0169"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0421",
@@ -8279,8 +8279,8 @@
       "deps": [
         "MI-0169"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0422",
@@ -8300,8 +8300,8 @@
       "deps": [
         "MI-0169"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0423",
@@ -8321,8 +8321,8 @@
       "deps": [
         "MI-0169"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0424",
@@ -8342,8 +8342,8 @@
       "deps": [
         "MI-0169"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0425",
@@ -8361,8 +8361,8 @@
       "description": "学习率调度（step 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0426",
@@ -8380,8 +8380,8 @@
       "description": "学习率调度（init 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0427",
@@ -8399,8 +8399,8 @@
       "description": "学习率调度（reset 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0428",
@@ -8418,8 +8418,8 @@
       "description": "学习率调度（clip 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0429",
@@ -8437,8 +8437,8 @@
       "description": "学习率调度（schedule 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0430",
@@ -8456,8 +8456,8 @@
       "description": "学习率调度（fuse 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0431",
@@ -8475,8 +8475,8 @@
       "description": "学习率调度（stream 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0432",
@@ -8494,8 +8494,8 @@
       "description": "学习率调度（batch 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0433",
@@ -8513,8 +8513,8 @@
       "description": "梯度累积（step 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0434",
@@ -8532,8 +8532,8 @@
       "description": "梯度累积（init 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0435",
@@ -8551,8 +8551,8 @@
       "description": "梯度累积（reset 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0436",
@@ -8570,8 +8570,8 @@
       "description": "梯度累积（clip 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0437",
@@ -8589,8 +8589,8 @@
       "description": "梯度累积（schedule 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0438",
@@ -8608,8 +8608,8 @@
       "description": "梯度累积（fuse 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0439",
@@ -8627,8 +8627,8 @@
       "description": "梯度累积（stream 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0440",
@@ -8646,8 +8646,8 @@
       "description": "梯度累积（batch 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0441",
@@ -8665,8 +8665,8 @@
       "description": "混合精度转换（step 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0442",
@@ -8684,8 +8684,8 @@
       "description": "混合精度转换（init 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0443",
@@ -8703,8 +8703,8 @@
       "description": "混合精度转换（reset 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0444",
@@ -8722,8 +8722,8 @@
       "description": "混合精度转换（clip 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0445",
@@ -8741,8 +8741,8 @@
       "description": "混合精度转换（schedule 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0446",
@@ -8760,8 +8760,8 @@
       "description": "混合精度转换（fuse 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0447",
@@ -8779,8 +8779,8 @@
       "description": "混合精度转换（stream 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0448",
@@ -8798,8 +8798,8 @@
       "description": "混合精度转换（batch 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0449",
@@ -8817,8 +8817,8 @@
       "description": "检查点保存（step 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0450",
@@ -8836,8 +8836,8 @@
       "description": "检查点保存（init 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0451",
@@ -8855,8 +8855,8 @@
       "description": "检查点保存（reset 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0452",
@@ -8874,8 +8874,8 @@
       "description": "检查点保存（clip 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0453",
@@ -8893,8 +8893,8 @@
       "description": "检查点保存（schedule 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0454",
@@ -8912,8 +8912,8 @@
       "description": "检查点保存（fuse 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0455",
@@ -8931,8 +8931,8 @@
       "description": "检查点保存（stream 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0456",
@@ -8950,8 +8950,8 @@
       "description": "检查点保存（batch 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0457",
@@ -8971,8 +8971,8 @@
       "deps": [
         "MI-0449"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0458",
@@ -8992,8 +8992,8 @@
       "deps": [
         "MI-0449"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0459",
@@ -9013,8 +9013,8 @@
       "deps": [
         "MI-0449"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0460",
@@ -9034,8 +9034,8 @@
       "deps": [
         "MI-0449"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0461",
@@ -9055,8 +9055,8 @@
       "deps": [
         "MI-0449"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0462",
@@ -9076,8 +9076,8 @@
       "deps": [
         "MI-0449"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0463",
@@ -9097,8 +9097,8 @@
       "deps": [
         "MI-0449"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0464",
@@ -9118,8 +9118,8 @@
       "deps": [
         "MI-0449"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0465",
@@ -9137,8 +9137,8 @@
       "description": "分布式梯度 AllReduce（step 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0466",
@@ -9156,8 +9156,8 @@
       "description": "分布式梯度 AllReduce（init 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0467",
@@ -9175,8 +9175,8 @@
       "description": "分布式梯度 AllReduce（reset 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0468",
@@ -9194,8 +9194,8 @@
       "description": "分布式梯度 AllReduce（clip 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0469",
@@ -9213,8 +9213,8 @@
       "description": "分布式梯度 AllReduce（schedule 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0470",
@@ -9232,8 +9232,8 @@
       "description": "分布式梯度 AllReduce（fuse 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0471",
@@ -9251,8 +9251,8 @@
       "description": "分布式梯度 AllReduce（stream 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0472",
@@ -9270,8 +9270,8 @@
       "description": "分布式梯度 AllReduce（batch 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0473",
@@ -9289,8 +9289,8 @@
       "description": "早停判据（step 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0474",
@@ -9308,8 +9308,8 @@
       "description": "早停判据（init 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0475",
@@ -9327,8 +9327,8 @@
       "description": "早停判据（reset 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0476",
@@ -9346,8 +9346,8 @@
       "description": "早停判据（clip 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0477",
@@ -9365,8 +9365,8 @@
       "description": "早停判据（schedule 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0478",
@@ -9384,8 +9384,8 @@
       "description": "早停判据（fuse 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0479",
@@ -9403,8 +9403,8 @@
       "description": "早停判据（stream 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0480",
@@ -9422,8 +9422,8 @@
       "description": "早停判据（batch 变体）",
       "reuse": "PyTorch DDP / DeepSpeed ZeRO / Megatron / Accelerate",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0481",
@@ -9443,8 +9443,8 @@
       "deps": [
         "MI-0393"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0482",
@@ -9464,8 +9464,8 @@
       "deps": [
         "MI-0393"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0483",
@@ -9485,8 +9485,8 @@
       "deps": [
         "MI-0393"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0484",
@@ -9506,8 +9506,8 @@
       "deps": [
         "MI-0393"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0485",
@@ -9527,8 +9527,8 @@
       "deps": [
         "MI-0393"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0486",
@@ -9548,8 +9548,8 @@
       "deps": [
         "MI-0393"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0487",
@@ -9569,8 +9569,8 @@
       "deps": [
         "MI-0393"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0488",
@@ -9590,8 +9590,8 @@
       "deps": [
         "MI-0393"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0489",
@@ -9609,8 +9609,8 @@
       "description": "KV 缓存分配（step 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0490",
@@ -9628,8 +9628,8 @@
       "description": "KV 缓存分配（init 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0491",
@@ -9647,8 +9647,8 @@
       "description": "KV 缓存分配（reset 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0492",
@@ -9666,8 +9666,8 @@
       "description": "KV 缓存分配（clip 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0493",
@@ -9685,8 +9685,8 @@
       "description": "KV 缓存分配（schedule 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0494",
@@ -9704,8 +9704,8 @@
       "description": "KV 缓存分配（fuse 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0495",
@@ -9723,8 +9723,8 @@
       "description": "KV 缓存分配（stream 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0496",
@@ -9742,8 +9742,8 @@
       "description": "KV 缓存分配（batch 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0497",
@@ -9763,8 +9763,8 @@
       "deps": [
         "MI-0625"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0498",
@@ -9784,8 +9784,8 @@
       "deps": [
         "MI-0625"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0499",
@@ -9805,8 +9805,8 @@
       "deps": [
         "MI-0625"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0500",
@@ -9826,8 +9826,8 @@
       "deps": [
         "MI-0625"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0501",
@@ -9847,8 +9847,8 @@
       "deps": [
         "MI-0625"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0502",
@@ -9868,8 +9868,8 @@
       "deps": [
         "MI-0625"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0503",
@@ -9889,8 +9889,8 @@
       "deps": [
         "MI-0625"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0504",
@@ -9910,8 +9910,8 @@
       "deps": [
         "MI-0625"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0505",
@@ -9932,8 +9932,8 @@
         "MI-0625",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0506",
@@ -9954,8 +9954,8 @@
         "MI-0625",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0507",
@@ -9976,8 +9976,8 @@
         "MI-0625",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0508",
@@ -9998,8 +9998,8 @@
         "MI-0625",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0509",
@@ -10020,8 +10020,8 @@
         "MI-0625",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0510",
@@ -10042,8 +10042,8 @@
         "MI-0625",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0511",
@@ -10064,8 +10064,8 @@
         "MI-0625",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0512",
@@ -10086,8 +10086,8 @@
         "MI-0625",
         "MI-0113"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0513",
@@ -10105,8 +10105,8 @@
       "description": "投机解码草稿（step 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0514",
@@ -10124,8 +10124,8 @@
       "description": "投机解码草稿（init 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0515",
@@ -10143,8 +10143,8 @@
       "description": "投机解码草稿（reset 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0516",
@@ -10162,8 +10162,8 @@
       "description": "投机解码草稿（clip 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0517",
@@ -10181,8 +10181,8 @@
       "description": "投机解码草稿（schedule 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0518",
@@ -10200,8 +10200,8 @@
       "description": "投机解码草稿（fuse 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0519",
@@ -10219,8 +10219,8 @@
       "description": "投机解码草稿（stream 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0520",
@@ -10238,8 +10238,8 @@
       "description": "投机解码草稿（batch 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0521",
@@ -10259,8 +10259,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0522",
@@ -10280,8 +10280,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0523",
@@ -10301,8 +10301,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0524",
@@ -10322,8 +10322,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0525",
@@ -10343,8 +10343,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0526",
@@ -10364,8 +10364,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0527",
@@ -10385,8 +10385,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0528",
@@ -10406,8 +10406,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0529",
@@ -10427,8 +10427,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0530",
@@ -10448,8 +10448,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0531",
@@ -10469,8 +10469,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0532",
@@ -10490,8 +10490,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0533",
@@ -10511,8 +10511,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0534",
@@ -10532,8 +10532,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0535",
@@ -10553,8 +10553,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0536",
@@ -10574,8 +10574,8 @@
       "deps": [
         "MI-0617"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0537",
@@ -10593,8 +10593,8 @@
       "description": "算子融合（step 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0538",
@@ -10612,8 +10612,8 @@
       "description": "算子融合（init 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0539",
@@ -10631,8 +10631,8 @@
       "description": "算子融合（reset 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0540",
@@ -10650,8 +10650,8 @@
       "description": "算子融合（clip 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0541",
@@ -10669,8 +10669,8 @@
       "description": "算子融合（schedule 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0542",
@@ -10688,8 +10688,8 @@
       "description": "算子融合（fuse 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0543",
@@ -10707,8 +10707,8 @@
       "description": "算子融合（stream 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0544",
@@ -10726,8 +10726,8 @@
       "description": "算子融合（batch 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0545",
@@ -10745,8 +10745,8 @@
       "description": "连续批处理调度（step 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0546",
@@ -10764,8 +10764,8 @@
       "description": "连续批处理调度（init 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0547",
@@ -10783,8 +10783,8 @@
       "description": "连续批处理调度（reset 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0548",
@@ -10802,8 +10802,8 @@
       "description": "连续批处理调度（clip 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0549",
@@ -10821,8 +10821,8 @@
       "description": "连续批处理调度（schedule 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0550",
@@ -10840,8 +10840,8 @@
       "description": "连续批处理调度（fuse 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0551",
@@ -10859,8 +10859,8 @@
       "description": "连续批处理调度（stream 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0552",
@@ -10878,8 +10878,8 @@
       "description": "连续批处理调度（batch 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0553",
@@ -10899,8 +10899,8 @@
       "deps": [
         "MI-0577"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0554",
@@ -10920,8 +10920,8 @@
       "deps": [
         "MI-0577"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0555",
@@ -10941,8 +10941,8 @@
       "deps": [
         "MI-0577"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0556",
@@ -10962,8 +10962,8 @@
       "deps": [
         "MI-0577"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0557",
@@ -10983,8 +10983,8 @@
       "deps": [
         "MI-0577"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0558",
@@ -11004,8 +11004,8 @@
       "deps": [
         "MI-0577"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0559",
@@ -11025,8 +11025,8 @@
       "deps": [
         "MI-0577"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0560",
@@ -11046,8 +11046,8 @@
       "deps": [
         "MI-0577"
       ],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0561",
@@ -11065,8 +11065,8 @@
       "description": "logits 惩罚（重复 / 长度）（step 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0562",
@@ -11084,8 +11084,8 @@
       "description": "logits 惩罚（重复 / 长度）（init 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0563",
@@ -11103,8 +11103,8 @@
       "description": "logits 惩罚（重复 / 长度）（reset 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0564",
@@ -11122,8 +11122,8 @@
       "description": "logits 惩罚（重复 / 长度）（clip 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0565",
@@ -11141,8 +11141,8 @@
       "description": "logits 惩罚（重复 / 长度）（schedule 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0566",
@@ -11160,8 +11160,8 @@
       "description": "logits 惩罚（重复 / 长度）（fuse 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0567",
@@ -11179,8 +11179,8 @@
       "description": "logits 惩罚（重复 / 长度）（stream 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0568",
@@ -11198,8 +11198,8 @@
       "description": "logits 惩罚（重复 / 长度）（batch 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0569",
@@ -11217,8 +11217,8 @@
       "description": "束搜索（step 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0570",
@@ -11236,8 +11236,8 @@
       "description": "束搜索（init 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0571",
@@ -11255,8 +11255,8 @@
       "description": "束搜索（reset 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0572",
@@ -11274,8 +11274,8 @@
       "description": "束搜索（clip 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0573",
@@ -11293,8 +11293,8 @@
       "description": "束搜索（schedule 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0574",
@@ -11312,8 +11312,8 @@
       "description": "束搜索（fuse 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0575",
@@ -11331,8 +11331,8 @@
       "description": "束搜索（stream 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0576",
@@ -11350,8 +11350,8 @@
       "description": "束搜索（batch 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0577",
@@ -11369,8 +11369,8 @@
       "description": "Top-p 核采样（step 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0578",
@@ -11388,8 +11388,8 @@
       "description": "Top-p 核采样（init 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0579",
@@ -11407,8 +11407,8 @@
       "description": "Top-p 核采样（reset 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0580",
@@ -11426,8 +11426,8 @@
       "description": "Top-p 核采样（clip 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0581",
@@ -11445,8 +11445,8 @@
       "description": "Top-p 核采样（schedule 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0582",
@@ -11464,8 +11464,8 @@
       "description": "Top-p 核采样（fuse 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0583",
@@ -11483,8 +11483,8 @@
       "description": "Top-p 核采样（stream 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0584",
@@ -11502,8 +11502,8 @@
       "description": "Top-p 核采样（batch 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0585",
@@ -11521,8 +11521,8 @@
       "description": "草稿验证（拒绝采样）（step 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0586",
@@ -11540,8 +11540,8 @@
       "description": "草稿验证（拒绝采样）（init 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0587",
@@ -11559,8 +11559,8 @@
       "description": "草稿验证（拒绝采样）（reset 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0588",
@@ -11578,8 +11578,8 @@
       "description": "草稿验证（拒绝采样）（clip 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0589",
@@ -11597,8 +11597,8 @@
       "description": "草稿验证（拒绝采样）（schedule 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0590",
@@ -11616,8 +11616,8 @@
       "description": "草稿验证（拒绝采样）（fuse 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0591",
@@ -11635,8 +11635,8 @@
       "description": "草稿验证（拒绝采样）（stream 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0592",
@@ -11654,8 +11654,8 @@
       "description": "草稿验证（拒绝采样）（batch 变体）",
       "reuse": "vLLM / TensorRT-LLM / llama.cpp / SGLang",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0593",
