@@ -3,7 +3,7 @@
     "project": "world-class-ai",
     "title": "世界顶级 AI 系统 · 第十层 1024 微指令",
     "author": "晨星",
-    "build_time": "2026-10-11T21:35:35Z",
+    "build_time": "2026-10-12T16:41:00Z",
     "total": 1024,
     "modules": [
       {
@@ -11673,8 +11673,8 @@
       "description": "张量内存分配（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0594",
@@ -11692,8 +11692,8 @@
       "description": "张量内存分配（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0595",
@@ -11711,8 +11711,8 @@
       "description": "张量内存分配（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0596",
@@ -11730,8 +11730,8 @@
       "description": "张量内存分配（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0597",
@@ -11749,8 +11749,8 @@
       "description": "张量内存分配（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0598",
@@ -11768,8 +11768,8 @@
       "description": "张量内存分配（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0599",
@@ -11787,8 +11787,8 @@
       "description": "张量内存分配（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0600",
@@ -11806,8 +11806,8 @@
       "description": "张量内存分配（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0601",
@@ -11825,8 +11825,8 @@
       "description": "形状重排（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0602",
@@ -11844,8 +11844,8 @@
       "description": "形状重排（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0603",
@@ -11863,8 +11863,8 @@
       "description": "形状重排（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0604",
@@ -11882,8 +11882,8 @@
       "description": "形状重排（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0605",
@@ -11901,8 +11901,8 @@
       "description": "形状重排（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0606",
@@ -11920,8 +11920,8 @@
       "description": "形状重排（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0607",
@@ -11939,8 +11939,8 @@
       "description": "形状重排（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0608",
@@ -11958,8 +11958,8 @@
       "description": "形状重排（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0609",
@@ -11977,8 +11977,8 @@
       "description": "维度转置（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0610",
@@ -11996,8 +11996,8 @@
       "description": "维度转置（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0611",
@@ -12015,8 +12015,8 @@
       "description": "维度转置（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0612",
@@ -12034,8 +12034,8 @@
       "description": "维度转置（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0613",
@@ -12053,8 +12053,8 @@
       "description": "维度转置（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0614",
@@ -12072,8 +12072,8 @@
       "description": "维度转置（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0615",
@@ -12091,8 +12091,8 @@
       "description": "维度转置（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0616",
@@ -12110,8 +12110,8 @@
       "description": "维度转置（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0617",
@@ -12129,8 +12129,8 @@
       "description": "类型转换（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0618",
@@ -12148,8 +12148,8 @@
       "description": "类型转换（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0619",
@@ -12167,8 +12167,8 @@
       "description": "类型转换（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0620",
@@ -12186,8 +12186,8 @@
       "description": "类型转换（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0621",
@@ -12205,8 +12205,8 @@
       "description": "类型转换（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0622",
@@ -12224,8 +12224,8 @@
       "description": "类型转换（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0623",
@@ -12243,8 +12243,8 @@
       "description": "类型转换（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0624",
@@ -12262,8 +12262,8 @@
       "description": "类型转换（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0625",
@@ -12281,8 +12281,8 @@
       "description": "切片视图（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0626",
@@ -12300,8 +12300,8 @@
       "description": "切片视图（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0627",
@@ -12319,8 +12319,8 @@
       "description": "切片视图（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0628",
@@ -12338,8 +12338,8 @@
       "description": "切片视图（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0629",
@@ -12357,8 +12357,8 @@
       "description": "切片视图（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0630",
@@ -12376,8 +12376,8 @@
       "description": "切片视图（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0631",
@@ -12395,8 +12395,8 @@
       "description": "切片视图（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0632",
@@ -12414,8 +12414,8 @@
       "description": "切片视图（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0633",
@@ -12433,8 +12433,8 @@
       "description": "拼接（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0634",
@@ -12452,8 +12452,8 @@
       "description": "拼接（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0635",
@@ -12471,8 +12471,8 @@
       "description": "拼接（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0636",
@@ -12490,8 +12490,8 @@
       "description": "拼接（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0637",
@@ -12509,8 +12509,8 @@
       "description": "拼接（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0638",
@@ -12528,8 +12528,8 @@
       "description": "拼接（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0639",
@@ -12547,8 +12547,8 @@
       "description": "拼接（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0640",
@@ -12566,8 +12566,8 @@
       "description": "拼接（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0641",
@@ -12585,8 +12585,8 @@
       "description": "填充（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0642",
@@ -12604,8 +12604,8 @@
       "description": "填充（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0643",
@@ -12623,8 +12623,8 @@
       "description": "填充（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0644",
@@ -12642,8 +12642,8 @@
       "description": "填充（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0645",
@@ -12661,8 +12661,8 @@
       "description": "填充（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0646",
@@ -12680,8 +12680,8 @@
       "description": "填充（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0647",
@@ -12699,8 +12699,8 @@
       "description": "填充（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0648",
@@ -12718,8 +12718,8 @@
       "description": "填充（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0649",
@@ -12737,8 +12737,8 @@
       "description": "归约求和（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0650",
@@ -12756,8 +12756,8 @@
       "description": "归约求和（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0651",
@@ -12775,8 +12775,8 @@
       "description": "归约求和（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0652",
@@ -12794,8 +12794,8 @@
       "description": "归约求和（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0653",
@@ -12813,8 +12813,8 @@
       "description": "归约求和（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0654",
@@ -12832,8 +12832,8 @@
       "description": "归约求和（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0655",
@@ -12851,8 +12851,8 @@
       "description": "归约求和（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0656",
@@ -12870,8 +12870,8 @@
       "description": "归约求和（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0657",
@@ -12889,8 +12889,8 @@
       "description": "归约求均值（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0658",
@@ -12908,8 +12908,8 @@
       "description": "归约求均值（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0659",
@@ -12927,8 +12927,8 @@
       "description": "归约求均值（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0660",
@@ -12946,8 +12946,8 @@
       "description": "归约求均值（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0661",
@@ -12965,8 +12965,8 @@
       "description": "归约求均值（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0662",
@@ -12984,8 +12984,8 @@
       "description": "归约求均值（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0663",
@@ -13003,8 +13003,8 @@
       "description": "归约求均值（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0664",
@@ -13022,8 +13022,8 @@
       "description": "归约求均值（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0665",
@@ -13041,8 +13041,8 @@
       "description": "归约求最大值（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0666",
@@ -13060,8 +13060,8 @@
       "description": "归约求最大值（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0667",
@@ -13079,8 +13079,8 @@
       "description": "归约求最大值（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0668",
@@ -13098,8 +13098,8 @@
       "description": "归约求最大值（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0669",
@@ -13117,8 +13117,8 @@
       "description": "归约求最大值（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0670",
@@ -13136,8 +13136,8 @@
       "description": "归约求最大值（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0671",
@@ -13155,8 +13155,8 @@
       "description": "归约求最大值（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0672",
@@ -13174,8 +13174,8 @@
       "description": "归约求最大值（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0673",
@@ -13193,8 +13193,8 @@
       "description": "逐元素加（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0674",
@@ -13212,8 +13212,8 @@
       "description": "逐元素加（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0675",
@@ -13231,8 +13231,8 @@
       "description": "逐元素加（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0676",
@@ -13250,8 +13250,8 @@
       "description": "逐元素加（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0677",
@@ -13269,8 +13269,8 @@
       "description": "逐元素加（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0678",
@@ -13288,8 +13288,8 @@
       "description": "逐元素加（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0679",
@@ -13307,8 +13307,8 @@
       "description": "逐元素加（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0680",
@@ -13326,8 +13326,8 @@
       "description": "逐元素加（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0681",
@@ -13345,8 +13345,8 @@
       "description": "逐元素乘（f32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0682",
@@ -13364,8 +13364,8 @@
       "description": "逐元素乘（f16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0683",
@@ -13383,8 +13383,8 @@
       "description": "逐元素乘（bf16 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0684",
@@ -13402,8 +13402,8 @@
       "description": "逐元素乘（f64 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0685",
@@ -13421,8 +13421,8 @@
       "description": "逐元素乘（i32 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0686",
@@ -13440,8 +13440,8 @@
       "description": "逐元素乘（i8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0687",
@@ -13459,8 +13459,8 @@
       "description": "逐元素乘（u8 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0688",
@@ -13478,8 +13478,8 @@
       "description": "逐元素乘（bool 变体）",
       "reuse": "PyTorch tensor / NumPy / XLA / Apache Arrow",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0689",
@@ -18729,8 +18729,8 @@
       "description": "结构化日志输出（step 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0962",
@@ -18748,8 +18748,8 @@
       "description": "结构化日志输出（init 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0963",
@@ -18767,8 +18767,8 @@
       "description": "结构化日志输出（reset 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0964",
@@ -18786,8 +18786,8 @@
       "description": "结构化日志输出（clip 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0965",
@@ -18805,8 +18805,8 @@
       "description": "结构化日志输出（schedule 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0966",
@@ -18824,8 +18824,8 @@
       "description": "结构化日志输出（fuse 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0967",
@@ -18843,8 +18843,8 @@
       "description": "结构化日志输出（stream 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0968",
@@ -18862,8 +18862,8 @@
       "description": "结构化日志输出（batch 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0969",
@@ -18881,8 +18881,8 @@
       "description": "指标记录（step 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0970",
@@ -18900,8 +18900,8 @@
       "description": "指标记录（init 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0971",
@@ -18919,8 +18919,8 @@
       "description": "指标记录（reset 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0972",
@@ -18938,8 +18938,8 @@
       "description": "指标记录（clip 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0973",
@@ -18957,8 +18957,8 @@
       "description": "指标记录（schedule 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0974",
@@ -18976,8 +18976,8 @@
       "description": "指标记录（fuse 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0975",
@@ -18995,8 +18995,8 @@
       "description": "指标记录（stream 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0976",
@@ -19014,8 +19014,8 @@
       "description": "指标记录（batch 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0977",
@@ -19033,8 +19033,8 @@
       "description": "配置加载校验（step 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0978",
@@ -19052,8 +19052,8 @@
       "description": "配置加载校验（init 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0979",
@@ -19071,8 +19071,8 @@
       "description": "配置加载校验（reset 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0980",
@@ -19090,8 +19090,8 @@
       "description": "配置加载校验（clip 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0981",
@@ -19109,8 +19109,8 @@
       "description": "配置加载校验（schedule 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0982",
@@ -19128,8 +19128,8 @@
       "description": "配置加载校验（fuse 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0983",
@@ -19147,8 +19147,8 @@
       "description": "配置加载校验（stream 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0984",
@@ -19166,8 +19166,8 @@
       "description": "配置加载校验（batch 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0985",
@@ -19185,8 +19185,8 @@
       "description": "异常抛出（step 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0986",
@@ -19204,8 +19204,8 @@
       "description": "异常抛出（init 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0987",
@@ -19223,8 +19223,8 @@
       "description": "异常抛出（reset 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0988",
@@ -19242,8 +19242,8 @@
       "description": "异常抛出（clip 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0989",
@@ -19261,8 +19261,8 @@
       "description": "异常抛出（schedule 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0990",
@@ -19280,8 +19280,8 @@
       "description": "异常抛出（fuse 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0991",
@@ -19299,8 +19299,8 @@
       "description": "异常抛出（stream 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0992",
@@ -19318,8 +19318,8 @@
       "description": "异常抛出（batch 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0993",
@@ -19337,8 +19337,8 @@
       "description": "SHA-256 哈希（step 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0994",
@@ -19356,8 +19356,8 @@
       "description": "SHA-256 哈希（init 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0995",
@@ -19375,8 +19375,8 @@
       "description": "SHA-256 哈希（reset 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0996",
@@ -19394,8 +19394,8 @@
       "description": "SHA-256 哈希（clip 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0997",
@@ -19413,8 +19413,8 @@
       "description": "SHA-256 哈希（schedule 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0998",
@@ -19432,8 +19432,8 @@
       "description": "SHA-256 哈希（fuse 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-0999",
@@ -19451,8 +19451,8 @@
       "description": "SHA-256 哈希（stream 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1000",
@@ -19470,8 +19470,8 @@
       "description": "SHA-256 哈希（batch 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1001",
@@ -19489,8 +19489,8 @@
       "description": "UUID 生成（step 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1002",
@@ -19508,8 +19508,8 @@
       "description": "UUID 生成（init 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1003",
@@ -19527,8 +19527,8 @@
       "description": "UUID 生成（reset 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1004",
@@ -19546,8 +19546,8 @@
       "description": "UUID 生成（clip 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1005",
@@ -19565,8 +19565,8 @@
       "description": "UUID 生成（schedule 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1006",
@@ -19584,8 +19584,8 @@
       "description": "UUID 生成（fuse 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1007",
@@ -19603,8 +19603,8 @@
       "description": "UUID 生成（stream 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1008",
@@ -19622,8 +19622,8 @@
       "description": "UUID 生成（batch 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1009",
@@ -19641,8 +19641,8 @@
       "description": "单调时钟读取（step 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1010",
@@ -19660,8 +19660,8 @@
       "description": "单调时钟读取（init 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1011",
@@ -19679,8 +19679,8 @@
       "description": "单调时钟读取（reset 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1012",
@@ -19698,8 +19698,8 @@
       "description": "单调时钟读取（clip 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1013",
@@ -19717,8 +19717,8 @@
       "description": "单调时钟读取（schedule 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1014",
@@ -19736,8 +19736,8 @@
       "description": "单调时钟读取（fuse 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1015",
@@ -19755,8 +19755,8 @@
       "description": "单调时钟读取（stream 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1016",
@@ -19774,8 +19774,8 @@
       "description": "单调时钟读取（batch 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1017",
@@ -19793,8 +19793,8 @@
       "description": "健康探针（step 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1018",
@@ -19812,8 +19812,8 @@
       "description": "健康探针（init 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1019",
@@ -19831,8 +19831,8 @@
       "description": "健康探针（reset 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1020",
@@ -19850,8 +19850,8 @@
       "description": "健康探针（clip 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1021",
@@ -19869,8 +19869,8 @@
       "description": "健康探针（schedule 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1022",
@@ -19888,8 +19888,8 @@
       "description": "健康探针（fuse 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1023",
@@ -19907,8 +19907,8 @@
       "description": "健康探针（stream 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     },
     {
       "id": "MI-1024",
@@ -19926,8 +19926,8 @@
       "description": "健康探针（batch 变体）",
       "reuse": "OpenTelemetry / structlog / pydantic / hashlib",
       "deps": [],
-      "status": "skeleton",
-      "verify": "contract"
+      "status": "implemented",
+      "verify": "functional"
     }
   ]
 }
